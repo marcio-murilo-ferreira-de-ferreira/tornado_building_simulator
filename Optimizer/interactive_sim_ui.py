@@ -470,8 +470,8 @@ with col2:
                     subprocess.Popen(['start', '/max', 'msedge', '--new-window', '--start-maximized', 'http://localhost:4179/'], shell=True)
                 except:
                     webbrowser.open_new('http://localhost:4179/')
-            st.info("💡 The Visual Interface has started in the background. Click above to open!")
             
+
         with colB:
             # 3D Building Bridge Button
             link = "http://localhost:8502"
@@ -497,8 +497,8 @@ with col2:
             </a>
             '''
             st.markdown(button_html, unsafe_allow_html=True)
-            st.success("✨ A estrutura de transferência foi salva! Abra o Prédio 3D.")
             
+
     else:
         st.info("👈 Adjust the sliders to see the live _Design Uplift_ calculation change. Click the run button to perform the genetic algorithm search with these values.")
     
