@@ -1,0 +1,1273 @@
+{
+  "inputs": {
+    "span_ft": 40.0,
+    "spacing_in": 16.0,
+    "wind_mph": 135.0
+  },
+  "demand": {
+    "lbf": 746.5,
+    "n": 3320.58
+  },
+  "winner": {
+    "strategy": "Strategy G (Holdown): h=20",
+    "pred_disp_in": 0.004,
+    "limit_in": 0.5,
+    "capacity_margin_lbf": 19734.8,
+    "impact_score": 22.76
+  },
+  "reasoning": "**Strategy G**: Discrete holdown delivered a strong direct tension path with less masonry intervention than through-wall clamp systems.",
+  "pareto": [
+    {
+      "strategy": "Strategy C",
+      "impact": 4.364527015679561,
+      "safety": 10.363742453148944,
+      "disp_in": 0.010972475641528326,
+      "topsis_score": 1.0
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 4.6792368261423425,
+      "safety": 15.010023614105751,
+      "disp_in": 0.014976876616276523,
+      "topsis_score": 0.7279274659184133
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.131157323559063,
+      "safety": 16.044895166683983,
+      "disp_in": 0.010786345938968924,
+      "topsis_score": 0.6683836767470027
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.234059108646295,
+      "safety": 16.46858008964931,
+      "disp_in": 0.0025696055453021194,
+      "topsis_score": 0.6439924075862519,
+      "is_topsis_winner": true
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 11.1919698279372,
+      "safety": 16.65130691876161,
+      "disp_in": 0.0030672355817615666,
+      "topsis_score": 0.7325819177226468
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 15.299494833952599,
+      "safety": 17.744180517081933,
+      "disp_in": 0.005798904330430523,
+      "topsis_score": 0.8219537417986745
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 16.20668329150369,
+      "safety": 18.5356934429312,
+      "disp_in": 0.0029082299503275606,
+      "topsis_score": 0.8283778342831091
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 17.64900704085645,
+      "safety": 22.816902553151177,
+      "disp_in": 0.0027836227932869356,
+      "topsis_score": 0.7712504115840968
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 18.626678607992005,
+      "safety": 23.79146867435622,
+      "disp_in": 0.02831364619413303,
+      "topsis_score": 0.8042707625904427
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 18.99372912931922,
+      "safety": 24.75501062538517,
+      "disp_in": 0.016608055591055042,
+      "topsis_score": 0.8107565883190369
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.214614490784008,
+      "safety": 24.94045598293171,
+      "disp_in": 0.022124769843501545,
+      "topsis_score": 0.8205438559045158
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.44758370894602,
+      "safety": 25.175759435392248,
+      "disp_in": 0.022275210384700785,
+      "topsis_score": 0.8307107460889914
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.776742596644638,
+      "safety": 26.055715456194047,
+      "disp_in": 0.02760898778964083,
+      "topsis_score": 0.8960471549259404
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.66535019608515,
+      "safety": 26.138307757199417,
+      "disp_in": 0.01973780941490713,
+      "topsis_score": 0.9437807818514792
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.01771978878035,
+      "safety": 26.895797450618367,
+      "disp_in": 0.023336020397500736,
+      "topsis_score": 0.9604154426936922
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.53048134703937,
+      "safety": 27.272338956319892,
+      "disp_in": 0.006857194260477741,
+      "topsis_score": 0.9878322608261895
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.746888202880516,
+      "safety": 27.40103460393683,
+      "disp_in": 0.0031959443018025648,
+      "topsis_score": 0.999558489513954
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.747524764929747,
+      "safety": 27.408938876353872,
+      "disp_in": 0.00038078591898254227,
+      "topsis_score": 0.9995924649752065
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.751278187597233,
+      "safety": 27.418596504182805,
+      "disp_in": 0.0022560448416721534,
+      "topsis_score": 0.9997960722901099
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.428486483447386,
+      "disp_in": 0.004015128046539604,
+      "topsis_score": 1.0
+    }
+  ],
+  "all_pass": [
+    {
+      "strategy": "Strategy F",
+      "impact": 34.60457355724125,
+      "safety": 16.317258696877285,
+      "disp_in": 0.02402481998330501
+    },
+    {
+      "strategy": "Strategy D",
+      "impact": 4.71238898038469,
+      "safety": 4.930397831959686,
+      "disp_in": 0.022404428594048172
+    },
+    {
+      "strategy": "Strategy B",
+      "impact": 276.615801855187,
+      "safety": 4.3495603348720335,
+      "disp_in": 0.02536589094878264
+    },
+    {
+      "strategy": "Strategy B",
+      "impact": 573.8366314993625,
+      "safety": 7.848286221415833,
+      "disp_in": 0.012781997553873808
+    },
+    {
+      "strategy": "Strategy A",
+      "impact": 17.15009213187525,
+      "safety": 7.684800693402474,
+      "disp_in": 0.012046650199590812
+    },
+    {
+      "strategy": "Strategy D",
+      "impact": 4.71238898038469,
+      "safety": 6.731323324551831,
+      "disp_in": 0.0039371928847772575
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.783403406427129,
+      "safety": 15.441693101327441,
+      "disp_in": 0.02800741633871575
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.7844736406413775,
+      "safety": 11.68537116282398,
+      "disp_in": 0.01805171708550313
+    },
+    {
+      "strategy": "Strategy D",
+      "impact": 4.71238898038469,
+      "safety": 7.315271208208943,
+      "disp_in": 0.02543427228415296
+    },
+    {
+      "strategy": "Strategy A",
+      "impact": 20.350160003412707,
+      "safety": 8.261344219292516,
+      "disp_in": 0.03169354269959677
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.800289365258386,
+      "safety": 19.84844913512939,
+      "disp_in": 0.009138934523073346
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 55.58807383119209,
+      "safety": 18.387504587307944,
+      "disp_in": 0.00474190899945078
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 48.733274045297605,
+      "safety": 16.47529071756875,
+      "disp_in": 0.010195051049662299
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.234059108646295,
+      "safety": 16.424284572842975,
+      "disp_in": 0.024717363948470853
+    },
+    {
+      "strategy": "Strategy B",
+      "impact": 500.1617802871559,
+      "safety": 7.14315770961134,
+      "disp_in": 0.020932083458186142
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.800289365258386,
+      "safety": 19.83458972177703,
+      "disp_in": 0.016068641199255152
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 55.58807383119209,
+      "safety": 18.3727521454086,
+      "disp_in": 0.012118129949122196
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.234059108646295,
+      "safety": 16.44752801996276,
+      "disp_in": 0.013095640388578071
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 4.940756469885407,
+      "safety": 14.706759178924123,
+      "disp_in": 0.03056392669618174
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 4.762019626480141,
+      "safety": 14.879516972006577,
+      "disp_in": 0.016619061453353755
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.131157323559063,
+      "safety": 16.044895166683983,
+      "disp_in": 0.010786345938968924,
+      "topsis_score": 0.6683836767470027
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 16.20668329150369,
+      "safety": 18.5356934429312,
+      "disp_in": 0.0029082299503275606,
+      "topsis_score": 0.8283778342831091
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.698106099004942,
+      "safety": 22.964473611189334,
+      "disp_in": 0.010106509399896149
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 56.54792058690068,
+      "safety": 18.68576674951102,
+      "disp_in": 0.01006290038974685
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.719534675209896,
+      "safety": 17.96517886671938,
+      "disp_in": 0.01058651436113845
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 5.234059108646295,
+      "safety": 16.46858008964931,
+      "disp_in": 0.0025696055453021194,
+      "topsis_score": 0.6439924075862519,
+      "is_topsis_winner": true
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 4.6792368261423425,
+      "safety": 15.010023614105751,
+      "disp_in": 0.014976876616276523,
+      "topsis_score": 0.7279274659184133
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.863338613377437,
+      "safety": 19.985517043728493,
+      "disp_in": 0.011254635436369408
+    },
+    {
+      "strategy": "Strategy H",
+      "impact": 7.723097566068448,
+      "safety": 15.647967894661381,
+      "disp_in": 0.007314611125236641
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 60.01674464328072,
+      "safety": 17.647866214667932,
+      "disp_in": 0.02512026131281589
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.698106099004942,
+      "safety": 22.93912600776436,
+      "disp_in": 0.022780311112382816
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.863338613377437,
+      "safety": 19.950236909832594,
+      "disp_in": 0.02889470238431975
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.800289365258386,
+      "safety": 19.85030760564399,
+      "disp_in": 0.008209699265773515
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.703776023839925,
+      "safety": 20.44142199186576,
+      "disp_in": 0.02656344871784781
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.022617590294367,
+      "safety": 20.717029821185694,
+      "disp_in": 0.012483403099731512
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.01108528902073,
+      "safety": 21.597884579547642,
+      "disp_in": 0.02779191297992661
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.33029050003389,
+      "safety": 19.002387125039384,
+      "disp_in": 0.01646628274307956
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.004201985519366,
+      "safety": 18.890587765462882,
+      "disp_in": 0.01986168107614438
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.093423084661854,
+      "safety": 21.46686553590608,
+      "disp_in": 0.00538494389437979
+    },
+    {
+      "strategy": "Strategy H",
+      "impact": 6.096672950844427,
+      "safety": 10.810809855192856,
+      "disp_in": 0.009526144634454097
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.445221878201526,
+      "safety": 21.522809473260722,
+      "disp_in": 0.028400901320836343
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 67.31628889993421,
+      "safety": 22.99669966681994,
+      "disp_in": 0.01332766585701442
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 23.178783646440024,
+      "disp_in": 0.008649561354117277
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 24.620707042486448,
+      "disp_in": 0.010209585449777897
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.32852280990898,
+      "safety": 20.635928109489353,
+      "disp_in": 0.009652515529948334
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 24.602943021873337,
+      "disp_in": 0.019091595756332718
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 23.15075683150016,
+      "disp_in": 0.022662968824048755
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.698106099004942,
+      "safety": 22.93853915771145,
+      "disp_in": 0.023073736138838213
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.726568854634827,
+      "safety": 23.115257324939456,
+      "disp_in": 0.00394313787991186
+    },
+    {
+      "strategy": "Strategy E",
+      "impact": 17.772095707819055,
+      "safety": 10.523722720579373,
+      "disp_in": 0.013777275454118242
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 15.299494833952599,
+      "safety": 17.744180517081933,
+      "disp_in": 0.005798904330430523,
+      "topsis_score": 0.8219537417986745
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.813288318822586,
+      "disp_in": 0.01320733848578659
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 22.981854655385632,
+      "disp_in": 0.01754919868601083
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 18.04070271423044,
+      "safety": 20.927499652179808,
+      "disp_in": 0.02882900269929884
+    },
+    {
+      "strategy": "Strategy A",
+      "impact": 29.852153009956325,
+      "safety": 9.807904049202817,
+      "disp_in": 0.005223074706084889
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.33452702475625,
+      "safety": 17.816346746575405,
+      "disp_in": 0.006086632113012979
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.864390974329684,
+      "safety": 24.301565910128573,
+      "disp_in": 0.02815847221503076
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 23.14087098103075,
+      "disp_in": 0.027233895304481455
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 17.231690710391263,
+      "safety": 17.137064893504476,
+      "disp_in": 0.001511716900914577
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.453414167599444,
+      "safety": 20.227254121678794,
+      "disp_in": 0.025239981455552774
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.838422313415006,
+      "disp_in": 0.000640341189577238
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 24.60321555204794,
+      "disp_in": 0.018955330669031666
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.864390974329684,
+      "safety": 24.328978424682994,
+      "disp_in": 0.01445221493782103
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.580390073286637,
+      "safety": 23.562215790477776,
+      "disp_in": 0.011179937163571178
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.92325733653457,
+      "safety": 25.812459009454287,
+      "disp_in": 0.006118405782065592
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 18.8370465697055,
+      "safety": 21.973574530403525,
+      "disp_in": 0.026062319429877533
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 24.784446903308396,
+      "disp_in": 0.02984517481582315
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.25180968884408,
+      "safety": 25.628130337559615,
+      "disp_in": 0.005377183363835073
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.610241699374,
+      "safety": 21.663124377008597,
+      "disp_in": 0.017112321066787086
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 24.91695404734769,
+      "disp_in": 0.018858205543987636
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.719180061983668,
+      "safety": 25.860260931787042,
+      "disp_in": 0.0056354520333896105
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 24.90879046038758,
+      "disp_in": 0.022939999024042295
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.308087898895636,
+      "safety": 21.58653478225613,
+      "disp_in": 0.009567820904882028
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.590877831179636,
+      "safety": 26.187931081484233,
+      "disp_in": 0.018277783196977246
+    },
+    {
+      "strategy": "Strategy D",
+      "impact": 4.71238898038469,
+      "safety": 5.986553586072015,
+      "disp_in": 0.019374198817910773
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.590877831179636,
+      "safety": 26.223540227922292,
+      "disp_in": 0.00047320997794714887
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.719180061983668,
+      "safety": 25.865341739929793,
+      "disp_in": 0.003095047962014664
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.793782892900854,
+      "disp_in": 0.022960051446652422
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.790051967078973,
+      "disp_in": 0.024825514357592046
+    },
+    {
+      "strategy": "Strategy E",
+      "impact": 20.409976186177726,
+      "safety": 9.97212505060877,
+      "disp_in": 0.026400230333295995
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.32777669741717,
+      "safety": 25.49688567525678,
+      "disp_in": 0.02164090770945488
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.672954720722174,
+      "safety": 25.596937461219337,
+      "disp_in": 0.017766078006090168
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 11.1919698279372,
+      "safety": 16.65130691876161,
+      "disp_in": 0.0030672355817615666,
+      "topsis_score": 0.7325819177226468
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.70066562807424,
+      "disp_in": 0.02470635565330103
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.672954720722174,
+      "safety": 26.475050216595694,
+      "disp_in": 0.01495586247365134
+    },
+    {
+      "strategy": "Strategy H",
+      "impact": 6.49864735713642,
+      "safety": 8.721394639053456,
+      "disp_in": 0.029627215571892847
+    },
+    {
+      "strategy": "Strategy H",
+      "impact": 9.424851251308912,
+      "safety": 12.690627699166999,
+      "disp_in": 0.028597556478866595
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.530150191009486,
+      "safety": 26.33483667932649,
+      "disp_in": 0.0054028911550556185
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.63094076259681,
+      "safety": 23.774637714596167,
+      "disp_in": 0.02546941849364979
+    },
+    {
+      "strategy": "Strategy D",
+      "impact": 4.71238898038469,
+      "safety": 8.736198268468266,
+      "disp_in": 0.011078666151026107
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.672954720722174,
+      "safety": 26.44620996066379,
+      "disp_in": 0.029375990439603428
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.530150191009486,
+      "safety": 26.308900511600363,
+      "disp_in": 0.01837097501811851
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.590877831179636,
+      "safety": 26.200689425553566,
+      "disp_in": 0.011898611162309823
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.71399316549345,
+      "safety": 26.345958675918578,
+      "disp_in": 0.006478167717435968
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.30955656913224,
+      "safety": 25.520178575135148,
+      "disp_in": 0.01701286622749406
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 7.068289349368222,
+      "safety": 15.766080500375066,
+      "disp_in": 0.006659808578465705
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.457761518520712,
+      "safety": 24.065464923547886,
+      "disp_in": 0.01939071905354957
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.71399316549345,
+      "safety": 26.32627479420442,
+      "disp_in": 0.016320108574515782
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.489111746238216,
+      "safety": 26.173550378800496,
+      "disp_in": 0.017339670803705635
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 26.375896169861402,
+      "disp_in": 0.009488697575167827
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.53048134703937,
+      "safety": 27.272338956319892,
+      "disp_in": 0.006857194260477741,
+      "topsis_score": 0.9878322608261895
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.420037255956807,
+      "safety": 24.99347778550886,
+      "disp_in": 0.022723987248261107
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.925278619145356,
+      "safety": 22.40920736659557,
+      "disp_in": 0.007661200133266363
+    },
+    {
+      "strategy": "Strategy C",
+      "impact": 4.364527015679561,
+      "safety": 10.363742453148944,
+      "disp_in": 0.010972475641528326,
+      "topsis_score": 1.0
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.559909147731492,
+      "safety": 26.56138409981627,
+      "disp_in": 0.020283194934199437
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.53048134703937,
+      "safety": 27.26230601991047,
+      "disp_in": 0.011873662465189323
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.559909147731492,
+      "safety": 26.559822044290478,
+      "disp_in": 0.021064222697095195
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.672954720722174,
+      "safety": 26.44549190578492,
+      "disp_in": 0.029735017879038476
+    },
+    {
+      "strategy": "Strategy H",
+      "impact": 9.642682293750944,
+      "safety": 10.168286534263807,
+      "disp_in": 0.019232797762810477
+    },
+    {
+      "strategy": "Strategy A",
+      "impact": 25.99206158251618,
+      "safety": 8.942977712661321,
+      "disp_in": 0.019370498246111156
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.180518063080264,
+      "safety": 25.38007083802379,
+      "disp_in": 0.0020713532781086747
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.540354704092653,
+      "safety": 26.930007851338406,
+      "disp_in": 0.011580281818713045
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.74982257660236,
+      "safety": 23.82914388262249,
+      "disp_in": 0.007074235416836777
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.66535019608515,
+      "safety": 26.138307757199417,
+      "disp_in": 0.01973780941490713,
+      "topsis_score": 0.9437807818514792
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.3933624263876,
+      "disp_in": 0.021577156576432128
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.417276313697556,
+      "disp_in": 0.009620212921454136
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.87257245065832,
+      "safety": 25.990648239710264,
+      "disp_in": 0.021842235596263804
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.747524764929747,
+      "safety": 27.408938876353872,
+      "disp_in": 0.00038078591898254227,
+      "topsis_score": 0.9995924649752065
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.041809101373897,
+      "safety": 25.25631106646021,
+      "disp_in": 0.0033749196731116715
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 26.568009372994513,
+      "disp_in": 0.027439832746616395
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.394071771450385,
+      "disp_in": 0.021222484045040308
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.747524764929747,
+      "safety": 27.373830219465447,
+      "disp_in": 0.017935114363195774
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.392825879337337,
+      "disp_in": 0.021845430101563573
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 36.22407320690395,
+      "safety": 13.519924023985212,
+      "disp_in": 0.004178909505023481
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.694898302117572,
+      "safety": 24.081254144173904,
+      "disp_in": 0.0024715739251149624
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.273380075489186,
+      "safety": 23.936617062169468,
+      "disp_in": 0.004225253167992802
+    },
+    {
+      "strategy": "Strategy F",
+      "impact": 47.21328080130319,
+      "safety": 15.594649290909992,
+      "disp_in": 0.028815027474480576
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.44758370894602,
+      "safety": 25.175759435392248,
+      "disp_in": 0.022275210384700785,
+      "topsis_score": 0.8307107460889914
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.41414716520871,
+      "disp_in": 0.011184787165876783
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.01771978878035,
+      "safety": 26.895797450618367,
+      "disp_in": 0.023336020397500736,
+      "topsis_score": 0.9604154426936922
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.751278187597233,
+      "safety": 27.409431922394848,
+      "disp_in": 0.006838335735651746
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 18.99372912931922,
+      "safety": 24.75501062538517,
+      "disp_in": 0.016608055591055042,
+      "topsis_score": 0.8107565883190369
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 20.776742596644638,
+      "safety": 26.055715456194047,
+      "disp_in": 0.02760898778964083,
+      "topsis_score": 0.8960471549259404
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.602430774570763,
+      "disp_in": 0.021702586626854183
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.726487865695315,
+      "safety": 26.691631165707193,
+      "disp_in": 0.022508966003767727
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.395961107491672,
+      "disp_in": 0.020277816024397436
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.751278187597233,
+      "safety": 27.418596504182805,
+      "disp_in": 0.0022560448416721534,
+      "topsis_score": 0.9997960722901099
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.381063070711267,
+      "disp_in": 0.027726834414599548
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.396149132360947,
+      "disp_in": 0.020183803589760067
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.52058077862806,
+      "safety": 24.250146928829544,
+      "disp_in": 0.012753072748077592
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 19.214614490784008,
+      "safety": 24.94045598293171,
+      "disp_in": 0.022124769843501545,
+      "topsis_score": 0.8205438559045158
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.14254755246416,
+      "disp_in": 0.029135590088378426
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.753154898930973,
+      "safety": 27.371321662237026,
+      "disp_in": 0.029245502233141242
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.45301111341003,
+      "safety": 25.806094200974943,
+      "disp_in": 0.010927995104973484
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.513552011436648,
+      "safety": 25.983193820527237,
+      "disp_in": 0.0027246586943304382
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.90845518804533,
+      "safety": 24.9916607016672,
+      "disp_in": 0.017266949128671983
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 26.712690195330527,
+      "disp_in": 0.02856575459433995
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 26.97857227933896,
+      "disp_in": 0.011506889420262695
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.781458314984583,
+      "safety": 25.472736390564474,
+      "disp_in": 0.011736848434176566
+    },
+    {
+      "strategy": "Strategy D",
+      "impact": 4.71238898038469,
+      "safety": 5.995183870043764,
+      "disp_in": 0.03424011005327088
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.751278187597233,
+      "safety": 27.381977056942084,
+      "disp_in": 0.020565768462033212
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.425342031457326,
+      "disp_in": 0.005587354041569444
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.402915406995202,
+      "disp_in": 0.016800666272631555
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.428486483447386,
+      "disp_in": 0.004015128046539604,
+      "topsis_score": 1.0
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.62185240735061,
+      "safety": 26.185718981038427,
+      "disp_in": 0.013571500613665634
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.746888202880516,
+      "safety": 27.40103460393683,
+      "disp_in": 0.0031959443018025648,
+      "topsis_score": 0.999558489513954
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.524701492234193,
+      "safety": 26.568984004054457,
+      "disp_in": 0.0021883593962315957
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 17.64900704085645,
+      "safety": 22.816902553151177,
+      "disp_in": 0.0027836227932869356,
+      "topsis_score": 0.7712504115840968
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.105456677973653,
+      "disp_in": 0.015078919473017035
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 21.182158703323573,
+      "safety": 24.517307027070647,
+      "disp_in": 0.0015512877149979798
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.383923781663885,
+      "disp_in": 0.026296478938289465
+    },
+    {
+      "strategy": "Strategy B",
+      "impact": 540.0047273095332,
+      "safety": 7.598586546894018,
+      "disp_in": 0.017254398685007083
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.587986809252655,
+      "safety": 26.808672878678248,
+      "disp_in": 0.015559445770222067
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 26.825431257721938,
+      "disp_in": 0.014631873354924302
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.205605903277476,
+      "safety": 24.58780758563793,
+      "disp_in": 0.026534217349787725
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.417714276516772,
+      "disp_in": 0.009401231511846908
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.38147396313669,
+      "disp_in": 0.027521388201888812
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.389792231802634,
+      "disp_in": 0.0233622538689163
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.318772775651357,
+      "safety": 25.525593615032715,
+      "disp_in": 0.0024079017475599567
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.398529944532577,
+      "disp_in": 0.01899339750394367
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.651308017531953,
+      "safety": 26.752957144233037,
+      "disp_in": 0.004978242891862495
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.32833583223278,
+      "safety": 25.85531571385421,
+      "disp_in": 0.02846956499802111
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 26.652409667278864,
+      "disp_in": 0.005041460757492845
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.421009747241655,
+      "disp_in": 0.007753496149404724
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.570914773480304,
+      "safety": 26.138583864934592,
+      "disp_in": 0.01427148926004999
+    },
+    {
+      "strategy": "Strategy B",
+      "impact": 534.4006803848008,
+      "safety": 8.05767287095725,
+      "disp_in": 0.01781296842715905
+    },
+    {
+      "strategy": "Strategy E",
+      "impact": 22.976232130851344,
+      "safety": 8.032563696763507,
+      "disp_in": 0.00529331558389008
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 27.41321964362214,
+      "disp_in": 0.011648547959164224
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 18.626678607992005,
+      "safety": 23.79146867435622,
+      "disp_in": 0.02831364619413303,
+      "topsis_score": 0.8042707625904427
+    },
+    {
+      "strategy": "Strategy G",
+      "impact": 22.755031610264716,
+      "safety": 25.525202875791685,
+      "disp_in": 0.008194544837238407
+    }
+  ],
+  "winner_topsis": {
+    "strategy": "Strategy C",
+    "impact": 5.234059108646295,
+    "safety": 16.46858008964931,
+    "disp_in": 0.0025696055453021194,
+    "topsis_score": 0.6439924075862519,
+    "is_topsis_winner": true
+  }
+}

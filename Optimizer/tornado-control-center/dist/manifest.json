@@ -1,0 +1,69 @@
+{
+  "image_dir": "fe_images",
+  "strategies": [
+    {
+      "strategy": "A",
+      "job": "retrofit_a",
+      "status": "ok",
+      "before": "retrofit_a_before.png",
+      "u2": "retrofit_a_U.png",
+      "smax": "retrofit_a_Smax.png"
+    },
+    {
+      "strategy": "B",
+      "job": "retrofit_b",
+      "status": "ok",
+      "before": "retrofit_b_before.png",
+      "u2": "retrofit_b_U.png",
+      "smax": "retrofit_b_Smax.png"
+    },
+    {
+      "strategy": "C",
+      "job": "retrofit_c",
+      "status": "ok",
+      "before": "retrofit_c_before.png",
+      "u2": "retrofit_c_U.png",
+      "smax": "retrofit_c_Smax.png"
+    },
+    {
+      "strategy": "D",
+      "job": "retrofit_d",
+      "status": "ok",
+      "before": "retrofit_d_before.png",
+      "u2": "retrofit_d_U.png",
+      "smax": "retrofit_d_Smax.png"
+    },
+    {
+      "strategy": "E",
+      "job": "retrofit_e",
+      "status": "ok",
+      "before": "retrofit_e_before.png",
+      "u2": "retrofit_e_U.png",
+      "smax": "retrofit_e_Smax.png"
+    },
+    {
+      "strategy": "F",
+      "job": "retrofit_f",
+      "status": "ok",
+      "before": "retrofit_f_before.png",
+      "u2": "retrofit_f_U.png",
+      "smax": "retrofit_f_Smax.png"
+    },
+    {
+      "strategy": "G",
+      "job": "retrofit_g",
+      "status": "ok",
+      "before": "retrofit_g_before.png",
+      "u2": "retrofit_g_U.png",
+      "smax": "retrofit_g_Smax.png"
+    },
+    {
+      "strategy": "H",
+      "job": "retrofit_h",
+      "status": "ok",
+      "before": "retrofit_h_before.png",
+      "u2": "retrofit_h_U.png",
+      "smax": "retrofit_h_Smax.png"
+    }
+  ]
+}
