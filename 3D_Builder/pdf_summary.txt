@@ -1,0 +1,102 @@
+--- 1 - CDP.pdf ---
+Advanced Structure 
+Engineering Abaqus
+Tutorial
+2020Ar m i n  Yo u s e f i  K a n a n i
+
+--- 10 - s2.0-S1877705816344484-main.pdf ---
+ Procedia Engineering   173  ( 2017 )  190 – 197 
+1877-7058 © 2017 The Authors. Published  by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license 
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Peer-review under responsibility of the organizing committee of Implast 2016
+doi: 10.1016/j.proeng.2016.12.057 ScienceDirectAvailable online at www.sciencedirect.com
+11th International Symposium on Plasticity and Impact Mechanics, Implast 2016  
+Simulation and Analysis of Ballis tic Impact using Continuum 
+Damage Mechanics (CDM) Model  
+Manoj Kumara*, Utkarsh Deepb, P M Dixtc 
+a Research Scholar, Department of Mechanical Engineering, Indian Institute of Technology Kanpur, India  
+b Dual  Student, Department of Mechanical Engineering, Indian Institute of Technology Kanpur, India  
+cProfessor,Department of Mechanical Engineering, Indian Institute of Technology Kanpur, India  
+Abstract  
+Ballistic Impact is the study of behaviour of ductile targets s ubjected to projectile impact. In this work, simulation and 
+analysis is done by using the Continuum Damage Mechanics (CDM) model on ballistic impact of steel (IS2062: 2006 
+GR E410W A) target using a rigid projectile. The Con tinuum Damage Mechanics model is implemented in 
+ABAQUS/Explicit through a user defined material mod el subroutine (VUMAT). The developed VUMAT is va lidated 
+by comparing the simulated results in tensile test with experimen tal results. The effect of the temperature and the strain 
+rate are
+
+--- 11 - 1275-ACE-FULLPAPER-ConstitutiveModelingofUnreinforcedMasonryWallswithandwithoutOpenings.pdf ---
+1  
+Constitutive Modeling of Unreinforced Masonry  Walls With and  
+Without Openings  
+ 
+ 
+ 
+M. Karslioglu1, Z. Unsal Aslan2, B. Doran3, C. Vatansever4 
+ 
+1Department of Civil Engineering, YTU, Istanbul , Turkey , mkoglu@yildiz.edu.tr  
+2Department of Civil Engineering, YTU, Istanbul , Turkey , zeynepunsalaslan@gmail.com   
+3Department of Civil Engineering, YTU , Istanbul , Turkey , doran@yildiz.edu.tr  
+4Department of Civil Engineering, ITU, Istanbul , Turkey , cuneyt.vatansever@itu.edu.tr  
+ 
+Abstract  
+ 
+Masonry walls are a composite, consisting of bricks together with mortar, and exhibits inelastic, anisotropic, and 
+non-homogeneous material behavior. The development of computer based finite element models provides an 
+algorithm with various constitutive la ws to achieve the nonlinear behavior of masonry walls under combined axial 
+and lateral loads. Many constitutive models are developed to represent the structural behavior of unreinforced 
+masonry (URM) walls.  This study primarily aims to identify suitable c onstitutive models and exhibit their shear 
+capabilities of URM walls. For this purpose, a nonlinear three -dimensional finite element model at a macro -level 
+using ABAQUS software has been developed to simulate the nonlinear response of URM walls with and wi thout 
+opening. A  fine mesh is used  where a strong variation of the gradient of displacement is present around the opening 
+and the constitutive law implemented in the model is selected as Concrete Damaged 
+
+--- 12 - 1434-F1-Tahat.pdf ---
+ 
+Finite element modelling of masonry wall retrofitted with 
+combination of textile -reinforced mortar and thermal 
+insulation  
+Hamza Tahat1(✉) and Idris Bedirhanoglu2  
+1 Dicle  University, Diyarbakir, 21280, Turkey  
+2 Natural and Applied Science , Civil Engineering Department  
+hamzatahat52 @gmail.com , idrisbed@gmail.com  
+ 
+Abstract. This work presents a finite element (FE) model for retrofitted masonry 
+walls. The masonry wall was retrofi tted with a combination of textile reinforced 
+mortar (TRM)  and thermal insulation. For finite element analysis, ABAQUS 
+software has been implemented. The subject of this study is an investigation of 
+the effectiveness of FE method in the prediction of strength and deformation 
+capacit y of retrofitted masonry walls, in addition to studying the effects of 
+retrofitting materials on the capacity of masonry walls. Concrete damage 
+plasticity (CDP) was implemented by utilizing the macro model approach. After 
+the development of the FEM model, the same case studies have been carried out, 
+and the results have been compared with experimental ones. Wall specimens 
+tested under out -of-plane cyclic loading has been selected for FEM analysis. In 
+the FE analysis, five parameters have been considered: a) unreinforced  masonry 
+(URM)  wall as a control specimen; b) only TRM was applied to both sides of the 
+wall without thermal insulation panels; c) TRM and thermal insulation were 
+applied to both sides of the wall; d) only thermal insulation
+
+--- 13 - 75937-Artikkelinteksti-123761-2-10-20190815.pdf ---
+Rakenteiden Mekaniikka (Journal of Structural Mechanics)
+Vol. 52, No 2, 2019, pp. 87{113
+https://rakenteidenmekaniikka.journal.fi/index
+https://doi.org/10.23998/rm.75937
+c2019 The Authors
+Open access under license CC BY 4.0
+Behavior of the Abaqus CDP model in simple stress states
+Alexis Fedoro1, Kim Calonius and Juha Kuutti
+Summary. In order to use the Abaqus Concrete Damaged Plasticity (CDP) material model
+in simulations of reinforced concrete structures, one has to understand the eect of various
+parameters of the material model. Although most of the material parameters can be determined
+from standard concrete tests, some parameters need more advanced tests to be determined. In
+impact simulations one often has only limited material data available, and it makes therefore
+sense to study the parameter sensitivity of the material model in order to x realistic parameter
+values. In this paper, the sensitivity of the simulation response with respect to two model
+parameters is studied: the dilation angle and the tensile to compressive meridian ratio. The
+sensitivity study is performed in three simple but representative stress states: the uniaxial
+tension state, the conned uniaxial compressive state and the pure shear state. Finally, it is
+discussed how these simple stress states relate to the element removal criteria, which is necessary
+in simulations involving fragmentation.
+Key words: material modelling, elasto-plastic material with scalar damage, Abaqus Concrete
+Damage Plast

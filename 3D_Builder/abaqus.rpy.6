@@ -1,0 +1,21 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2022 replay file
+# Internal Version: 2021_09_15-13.57.30 176069
+# Run by Márcio on Mon Apr  6 22:13:30 2026
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(1.11979, 1.12269), width=164.833, 
+    height=111.37)
+session.viewports['Viewport: 1'].makeCurrent()
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+execfile('test_api.py', __main__.__dict__)
+#: The interaction property "MortarDryFriction" has been created.
+print 'RT script done'
+#: RT script done

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# Large files and videos
+*.mp4
+*.avi
+*.mkv
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.pdf
+~$*
+
+# Abaqus generated files
+*.odb
+*.dat
+*.msg
+*.sta
+*.com
+*.sim
+*.prt
+*.log
+*.lck
+*.023
+*.mdl
+*.res
+*.stt
+*.pac
+*.sel
+*.cae
+*.jnl
+
+# Extracted resources (from scripts)
+extracted_images/
+extracted_text.txt
+
+# Mac
+.DS_Store
