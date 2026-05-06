@@ -470,7 +470,7 @@ with col2:
                     subprocess.Popen(['start', '/max', 'msedge', '--new-window', '--start-maximized', 'http://localhost:4179/'], shell=True)
                 except:
                     webbrowser.open_new('http://localhost:4179/')
-            st.info("💡 A interface visual com React iniciou em background no launcher. Clique acima para abrir!")
+            st.info("💡 The Visual Interface has started in the background. Click above to open!")
             
         with colB:
             # 3D Building Bridge Button
@@ -492,7 +492,7 @@ with col2:
                     box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3);
                 " onmouseover="this.style.backgroundColor='#2563eb'; this.style.transform='translateY(-3px)'" 
                    onmouseout="this.style.backgroundColor='#3b82f6'; this.style.transform='translateY(0)'">
-                    🏗️ Construir Prédio 3D (Estratégia {winner_strategy})
+                    🏗️ Build 3D Model (Strategy {winner_strategy})
                 </button>
             </a>
             '''
