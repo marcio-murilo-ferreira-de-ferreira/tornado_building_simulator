@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Retrofit Simulation Dashboard</title>
+  <style>
+    :root {
+      --bg: #f3f2ee;
+      --card: #fffdf8;
+      --ink: #24211f;
+      --muted: #6a625b;
+      --line: #d9d0c6;
+      --accent: #9e3a1f;
+      --safe: #1f7a4d;
+      --warn: #a56a00;
+    }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 10%, #efe5d8, transparent 45%),
+        radial-gradient(circle at 90% 0%, #f1d9c9, transparent 30%),
+        var(--bg);
+    }
+    .wrap { max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+    .title { font-size: 32px; font-weight: 700; letter-spacing: 0.3px; }
+    .sub { color: var(--muted); margin-top: 4px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; margin-top: 16px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .k { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+    .v { margin-top: 4px; font-size: 22px; font-weight: 700; }
+    .split { display: grid; grid-template-columns: 1.1fr 1fr; gap: 12px; margin-top: 12px; }
+    .triple { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; margin-top: 12px; }
+    .retrofits { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; margin-top: 12px; }
+    .retrofits .card { position: relative; overflow: hidden; }
+    .retrofits svg { width: 100%; height: 220px; display: block; }
+    .ok { color: var(--safe); font-weight: 700; }
+    .warn { color: var(--warn); font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; }
+    th { color: var(--muted); font-weight: 600; }
+    canvas { width: 100%; height: 280px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+    .small canvas { height: 220px; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .split { grid-template-columns: 1fr; }
+      .triple { grid-template-columns: 1fr; }
+      .retrofits { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="title">Masonry Retrofit Simulation Dashboard</div>
+    <div class="sub">19th-century fire-cut joist uplift study • ROAR interactive run</div>
+
+    <div class="grid">
+      <div class="card"><div class="k">Span</div><div class="v">40.0 ft</div></div>
+      <div class="card"><div class="k">Joist Spacing</div><div class="v">16.0 in</div></div>
+      <div class="card"><div class="k">Wind Speed</div><div class="v">135 mph</div></div>
+      <div class="card"><div class="k">Design Uplift</div><div class="v">746.50 lbf / 3320.58 N</div></div>
+    </div>
+
+    <div class="split">
+      <div class="card">
+        <div class="k">Consultant Recommendation</div>
+        <div class="v" style="font-size:20px">Strategy G (Holdown): h=20</div>
+        <div style="margin-top:8px">Predicted displacement: 0.004 in (limit 0.500 in)</div>
+        <div>Capacity margin: 19734.8 lbf</div>
+        <div>Historic impact score: 22.76</div>
+        <div style="margin-top:8px" class="ok">PASS: Joist displacement remains below detachment threshold.</div>
+        <div style="margin-top:10px; color:var(--muted)">**Strategy G**: Discrete holdown delivered a strong direct tension path with less masonry intervention than through-wall clamp systems.</div>
+      </div>
+      <div class="card">
+        <div class="k">Pareto Frontier</div>
+        <div style="margin-top:6px; margin-bottom:8px; color:var(--muted)">x = historic impact (lower better), y = safety (higher better)</div>
+        <div style="margin-top:-2px; margin-bottom:8px; font-size:12px; color:var(--muted)"><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#355c7d; border:1px solid #24211f;"></span><span>Strategy A</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#c06c84; border:1px solid #24211f;"></span><span>Strategy B</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#1f7a4d; border:1px solid #24211f;"></span><span>Strategy C</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#9e3a1f; border:1px solid #24211f;"></span><span>Strategy D</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#6b4c9a; border:1px solid #24211f;"></span><span>Strategy E</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#00798c; border:1px solid #24211f;"></span><span>Strategy F</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#8f5e15; border:1px solid #24211f;"></span><span>Strategy G</span></span><span style="display:inline-flex; align-items:center; gap:6px; margin-right:10px;"><span style="width:10px; height:10px; border-radius:50%; background:#3f7f4c; border:1px solid #24211f;"></span><span>Strategy H</span></span></div>
+        <div style="margin-top:-2px; margin-bottom:8px; font-size:12px; color:var(--muted)">Faint points = all passing candidates, solid points/line = Pareto frontier</div>
+        
+<svg viewBox="0 0 500 280">
+  <rect x="0" y="0" width="500" height="280" fill="#fff" stroke="#d9d0c6"/>
+  <path d="M 36 36 L 36 244 L 464 244" stroke="#cfc7be" fill="none"/>
+  <text x="6" y="14" font-size="12" fill="#6a625b">Safety</text>
+  <text x="446" y="270" font-size="12" fill="#6a625b">Impact</text>
+  <circle cx="634.44" cy="138.73" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="42.88" cy="244.00" r="3.0" fill="#9e3a1f" fill-opacity="0.28" stroke="none"/><circle cx="5423.74" cy="249.37" r="3.0" fill="#c06c84" fill-opacity="0.28" stroke="none"/><circle cx="11305.62" cy="217.02" r="3.0" fill="#c06c84" fill-opacity="0.28" stroke="none"/><circle cx="289.02" cy="218.53" r="3.0" fill="#355c7d" fill-opacity="0.28" stroke="none"/><circle cx="42.88" cy="227.35" r="3.0" fill="#9e3a1f" fill-opacity="0.28" stroke="none"/><circle cx="64.08" cy="146.82" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="64.10" cy="181.55" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="42.88" cy="221.95" r="3.0" fill="#9e3a1f" fill-opacity="0.28" stroke="none"/><circle cx="352.35" cy="213.20" r="3.0" fill="#355c7d" fill-opacity="0.28" stroke="none"/><circle cx="361.26" cy="106.08" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="1049.69" cy="119.59" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="914.04" cy="137.26" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="53.21" cy="137.74" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="9847.62" cy="223.54" r="3.0" fill="#c06c84" fill-opacity="0.28" stroke="none"/><circle cx="361.26" cy="106.21" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="1049.69" cy="119.72" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="53.21" cy="137.52" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="47.40" cy="153.62" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="43.87" cy="152.02" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="51.17" cy="141.24" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="270.35" cy="118.22" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="398.81" cy="77.27" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="1068.69" cy="116.83" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="339.87" cy="123.49" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="53.21" cy="137.33" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="42.23" cy="150.81" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="362.50" cy="104.81" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="102.46" cy="144.91" r="3.0" fill="#3f7f4c" fill-opacity="0.28" stroke="none"/><circle cx="1137.33" cy="126.42" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="398.81" cy="77.51" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="362.50" cy="105.14" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="361.26" cy="106.06" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="398.93" cy="100.60" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="385.45" cy="98.05" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="345.64" cy="89.91" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="371.75" cy="113.90" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="385.08" cy="114.93" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="367.06" cy="91.12" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="70.28" cy="189.63" r="3.0" fill="#3f7f4c" fill-opacity="0.28" stroke="none"/><circle cx="393.81" cy="90.60" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="1281.79" cy="76.97" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="75.29" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="61.96" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="351.92" cy="98.80" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="62.12" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="75.55" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="398.81" cy="77.51" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.38" cy="75.88" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="301.33" cy="192.29" r="3.0" fill="#6b4c9a" fill-opacity="0.28" stroke="none"/><circle cx="252.40" cy="125.53" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="50.93" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="77.11" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="306.65" cy="96.10" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="540.39" cy="198.91" r="3.0" fill="#355c7d" fill-opacity="0.28" stroke="none"/><circle cx="352.04" cy="124.87" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="382.32" cy="64.91" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="75.64" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="290.64" cy="131.15" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="354.39" cy="102.58" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="50.70" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="62.12" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="382.32" cy="64.66" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="337.12" cy="71.74" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="383.48" cy="50.94" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="322.41" cy="86.43" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="60.44" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="389.98" cy="52.64" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="397.08" cy="89.30" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="59.22" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.23" cy="50.50" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="59.30" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="391.10" cy="90.01" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="396.69" cy="47.47" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="42.88" cy="234.24" r="3.0" fill="#9e3a1f" fill-opacity="0.28" stroke="none"/><circle cx="396.69" cy="47.14" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.23" cy="50.45" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="51.11" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="51.15" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="353.53" cy="197.39" r="3.0" fill="#6b4c9a" fill-opacity="0.28" stroke="none"/><circle cx="371.70" cy="53.86" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="398.32" cy="52.93" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="171.11" cy="135.64" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="51.97" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="398.32" cy="44.81" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="78.23" cy="208.95" r="3.0" fill="#3f7f4c" fill-opacity="0.28" stroke="none"/><circle cx="136.14" cy="172.25" r="3.0" fill="#3f7f4c" fill-opacity="0.28" stroke="none"/><circle cx="395.49" cy="46.11" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="338.12" cy="69.78" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="42.88" cy="208.81" r="3.0" fill="#9e3a1f" fill-opacity="0.28" stroke="none"/><circle cx="398.32" cy="45.08" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="395.49" cy="46.35" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="396.69" cy="47.35" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.13" cy="46.01" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="391.12" cy="53.64" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="89.51" cy="143.82" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="354.48" cy="67.09" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.13" cy="46.19" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="394.68" cy="47.60" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="45.73" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="395.50" cy="37.44" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="373.52" cy="58.51" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="383.52" cy="82.40" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="36.00" cy="193.77" r="3.0" fill="#1f7a4d" fill-opacity="0.28" stroke="none"/><circle cx="396.08" cy="44.02" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="395.50" cy="37.54" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="396.08" cy="44.03" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="398.32" cy="45.09" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="140.45" cy="195.57" r="3.0" fill="#3f7f4c" fill-opacity="0.28" stroke="none"/><circle cx="464.00" cy="206.90" r="3.0" fill="#355c7d" fill-opacity="0.28" stroke="none"/><circle cx="388.57" cy="54.94" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="395.69" cy="40.61" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="380.05" cy="69.28" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="378.38" cy="47.93" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.32" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.10" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="362.69" cy="49.29" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.79" cy="36.18" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="385.83" cy="56.08" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="43.96" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.32" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.79" cy="36.51" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.33" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="666.49" cy="164.59" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="378.96" cy="66.95" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="390.41" cy="68.28" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="883.96" cy="145.41" r="3.0" fill="#00798c" fill-opacity="0.28" stroke="none"/><circle cx="334.49" cy="56.83" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.13" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="385.35" cy="40.92" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.87" cy="36.18" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="325.51" cy="60.72" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="360.79" cy="48.69" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="52.88" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.38" cy="42.81" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.30" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.87" cy="36.09" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.44" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.30" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="375.51" cy="65.38" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="329.88" cy="59.00" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="38.64" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.90" cy="36.53" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="374.17" cy="51.00" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="395.16" cy="49.36" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="383.19" cy="58.53" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="42.62" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="40.16" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="380.67" cy="54.08" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="42.88" cy="234.16" r="3.0" fill="#9e3a1f" fill-opacity="0.28" stroke="none"/><circle cx="399.87" cy="36.43" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.03" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.24" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.00" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="397.30" cy="47.49" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.78" cy="36.25" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="395.38" cy="43.95" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="298.89" cy="78.64" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="38.99" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="368.81" cy="62.91" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.41" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="10636.10" cy="219.33" r="3.0" fill="#c06c84" fill-opacity="0.28" stroke="none"/><circle cx="396.63" cy="41.73" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="41.58" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="389.07" cy="62.26" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.10" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.43" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.36" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="391.31" cy="53.59" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.28" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="397.89" cy="42.25" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="391.50" cy="50.54" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="43.18" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.07" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="396.30" cy="47.93" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="10525.20" cy="215.09" r="3.0" fill="#c06c84" fill-opacity="0.28" stroke="none"/><circle cx="404.32" cy="215.32" r="3.0" fill="#6b4c9a" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="36.14" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="318.24" cy="69.63" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/><circle cx="399.94" cy="53.60" r="3.0" fill="#8f5e15" fill-opacity="0.28" stroke="none"/>
+  <path d="M 36.00 193.77 L 42.23 150.81 L 51.17 141.24 L 53.21 137.33 L 171.11 135.64 L 252.40 125.53 L 270.35 118.22 L 298.89 78.64 L 318.24 69.63 L 325.51 60.72 L 329.88 59.00 L 334.49 56.83 L 360.79 48.69 L 378.38 47.93 L 385.35 40.92 L 395.50 37.44 L 399.78 36.25 L 399.79 36.18 L 399.87 36.09 L 399.94 36.00" stroke="#9e3a1f" stroke-width="2" fill="none"/>
+  <circle cx="36.00" cy="193.77" r="4.8" fill="#1f7a4d" stroke="#ffffff" stroke-width="1.0"/><circle cx="42.23" cy="150.81" r="4.8" fill="#1f7a4d" stroke="#ffffff" stroke-width="1.0"/><circle cx="51.17" cy="141.24" r="4.8" fill="#1f7a4d" stroke="#ffffff" stroke-width="1.0"/><circle cx="53.21" cy="137.33" r="4.8" fill="#1f7a4d" stroke="#ffffff" stroke-width="1.0"/><circle cx="171.11" cy="135.64" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="252.40" cy="125.53" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="270.35" cy="118.22" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="298.89" cy="78.64" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="318.24" cy="69.63" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="325.51" cy="60.72" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="329.88" cy="59.00" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="334.49" cy="56.83" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="360.79" cy="48.69" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="378.38" cy="47.93" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="385.35" cy="40.92" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="395.50" cy="37.44" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="399.78" cy="36.25" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="399.79" cy="36.18" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="399.87" cy="36.09" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/><circle cx="399.94" cy="36.00" r="4.8" fill="#8f5e15" stroke="#ffffff" stroke-width="1.0"/>
+</svg>
+
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Model Verification</div>
+      <div style="margin-top:6px" class="warn">Verification report not available</div>
+      <table style="margin-top:8px">
+        <thead>
+          <tr><th>Status</th><th>Check</th><th>Details</th></tr>
+        </thead>
+        <tbody><tr><td colspan='3' style='color:var(--muted)'>No verification report found. Run verification_suite.py first.</td></tr></tbody>
+      </table>
+      <div style="margin-top:8px; color:var(--muted)">Source: verification_report.json (generated by verification_suite.py).</div>
+    </div>
+
+    <div class="retrofits">
+      <div class="card">
+        <div class="k">Strategy A: Gravity Anchor</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">Vertical core + threaded rod (hidden in wall)</div>
+        <img src="strategy_assets/strat_a.png" alt="Strategy A schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Hidden rod transfers joist uplift into masonry mass</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy B: Clamp Plate</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">Exterior plate + through-bolt (visible)</div>
+        <img src="strategy_assets/strat_b.png" alt="Strategy B schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Through-bolt locks joist</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy C: Friction Pin</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">Diagonal adhesive pin (low impact)</div>
+        <img src="strategy_assets/strat_c.png" alt="Strategy C schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Epoxy bond + friction</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy D: Hurricane Strap</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">Steel strap tying joist to wall core</div>
+        <img src="strategy_assets/strat_d.png" alt="Strategy D schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Strap provides direct tension path</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy E: Uplift Plate</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">Seat plate with screws into joist/wall</div>
+        <img src="strategy_assets/strat_e.png" alt="Strategy E schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Plate + screws resists seat uplift</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy F: Hybrid Rod + Holdown</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">22.5 deg epoxy rod + holdown + blocking</div>
+        <img src="strategy_assets/strat_f.png" alt="Strategy F schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Rod + holdown create redundant uplift path</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy G: Holdown</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">Discrete holdown bracket with anchor bolt</div>
+        <img src="strategy_assets/strat_g.png" alt="Strategy G schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Holdown bracket transfers joist tension</div>
+      </div>
+      <div class="card">
+        <div class="k">Strategy H: Hanger + Blocking</div>
+        <div style="margin-top:6px; margin-bottom:8px; font-size:12px; color:var(--muted)">LU/HU-style hanger with seat blocking</div>
+        <img src="strategy_assets/strat_h.png" alt="Strategy H schematic" style="width:100%; height:220px; object-fit:cover; border-radius:8px; border:1px solid var(--line);">
+        <div style="margin-top:8px; font-size:12px; color:var(--muted)">Hanger and blocking reinforce joist seat</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">FE Visual Snapshots (Best Case Per Strategy)</div>
+      <table>
+        <thead>
+          <tr><th>Strategy</th><th>Job</th><th>Before Load</th><th>After: Displacement</th><th>After: Stress</th></tr>
+        </thead>
+        <tbody><tr><td>Strategy A</td><td>retrofit_a</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_a_before.png' alt='Strategy A Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_a_U.png' alt='Strategy A After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_a_Smax.png' alt='Strategy A After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy B</td><td>retrofit_b</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_b_before.png' alt='Strategy B Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_b_U.png' alt='Strategy B After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_b_Smax.png' alt='Strategy B After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy C</td><td>retrofit_c</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_c_before.png' alt='Strategy C Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_c_U.png' alt='Strategy C After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_c_Smax.png' alt='Strategy C After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy D</td><td>retrofit_d</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_d_before.png' alt='Strategy D Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_d_U.png' alt='Strategy D After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_d_Smax.png' alt='Strategy D After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy E</td><td>retrofit_e</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_e_before.png' alt='Strategy E Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_e_U.png' alt='Strategy E After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_e_Smax.png' alt='Strategy E After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy F</td><td>retrofit_f</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_f_before.png' alt='Strategy F Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_f_U.png' alt='Strategy F After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_f_Smax.png' alt='Strategy F After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy G</td><td>retrofit_g</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_g_before.png' alt='Strategy G Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_g_U.png' alt='Strategy G After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_g_Smax.png' alt='Strategy G After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr><tr><td>Strategy H</td><td>retrofit_h</td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>Before Load</div><img src='fe_images/retrofit_h_before.png' alt='Strategy H Before Load' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Displacement</div><img src='fe_images/retrofit_h_U.png' alt='Strategy H After Load: Displacement' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td><td><div style='font-size:12px; color:var(--muted); margin-bottom:4px'>After Load: Stress</div><img src='fe_images/retrofit_h_Smax.png' alt='Strategy H After Load: Stress' style='width:100%; max-width:260px; border:1px solid var(--line); border-radius:8px;'/></td></tr></tbody>
+      </table>
+      <div style="margin-top:8px; color:var(--muted)">Images are generated by Abaqus postprocessing from each strategy ODB.</div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Frontier Candidates</div>
+      <table id="paretoTable">
+        <thead>
+          <tr><th>#</th><th>Strategy</th><th>Safety</th><th>Impact</th><th>Disp. (in)</th></tr>
+        </thead>
+        <tbody><tr><td>1</td><td>Strategy C</td><td>10.364</td><td>4.365</td><td>0.011</td></tr>
+<tr><td>2</td><td>Strategy C</td><td>15.010</td><td>4.679</td><td>0.015</td></tr>
+<tr><td>3</td><td>Strategy C</td><td>16.045</td><td>5.131</td><td>0.011</td></tr>
+<tr><td>4</td><td>Strategy C</td><td>16.469</td><td>5.234</td><td>0.003</td></tr>
+<tr><td>5</td><td>Strategy G</td><td>16.651</td><td>11.192</td><td>0.003</td></tr>
+<tr><td>6</td><td>Strategy G</td><td>17.744</td><td>15.299</td><td>0.006</td></tr>
+<tr><td>7</td><td>Strategy G</td><td>18.536</td><td>16.207</td><td>0.003</td></tr>
+<tr><td>8</td><td>Strategy G</td><td>22.817</td><td>17.649</td><td>0.003</td></tr>
+<tr><td>9</td><td>Strategy G</td><td>23.791</td><td>18.627</td><td>0.028</td></tr>
+<tr><td>10</td><td>Strategy G</td><td>24.755</td><td>18.994</td><td>0.017</td></tr>
+<tr><td>11</td><td>Strategy G</td><td>24.940</td><td>19.215</td><td>0.022</td></tr>
+<tr><td>12</td><td>Strategy G</td><td>25.176</td><td>19.448</td><td>0.022</td></tr>
+<tr><td>13</td><td>Strategy G</td><td>26.056</td><td>20.777</td><td>0.028</td></tr>
+<tr><td>14</td><td>Strategy G</td><td>26.138</td><td>21.665</td><td>0.020</td></tr>
+<tr><td>15</td><td>Strategy G</td><td>26.896</td><td>22.018</td><td>0.023</td></tr>
+<tr><td>16</td><td>Strategy G</td><td>27.272</td><td>22.530</td><td>0.007</td></tr>
+<tr><td>17</td><td>Strategy G</td><td>27.401</td><td>22.747</td><td>0.003</td></tr>
+<tr><td>18</td><td>Strategy G</td><td>27.409</td><td>22.748</td><td>0.000</td></tr>
+<tr><td>19</td><td>Strategy G</td><td>27.419</td><td>22.751</td><td>0.002</td></tr>
+<tr><td>20</td><td>Strategy G</td><td>27.428</td><td>22.755</td><td>0.004</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Strategy Summary (Pareto Frontier)</div>
+      <table>
+        <thead>
+          <tr><th>Strategy</th><th>Count</th><th>Avg Safety</th><th>Avg Impact</th><th>Avg Disp. (in)</th></tr>
+        </thead>
+        <tbody><tr><td>Strategy A</td><td>0</td><td colspan='3' style='color:var(--muted)'>No candidates on frontier</td></tr>
+<tr><td>Strategy B</td><td>0</td><td colspan='3' style='color:var(--muted)'>No candidates on frontier</td></tr>
+<tr><td>Strategy C</td><td>4</td><td>14.472</td><td>4.852</td><td>0.010</td></tr>
+<tr><td>Strategy D</td><td>0</td><td colspan='3' style='color:var(--muted)'>No candidates on frontier</td></tr>
+<tr><td>Strategy E</td><td>0</td><td colspan='3' style='color:var(--muted)'>No candidates on frontier</td></tr>
+<tr><td>Strategy F</td><td>0</td><td colspan='3' style='color:var(--muted)'>No candidates on frontier</td></tr>
+<tr><td>Strategy G</td><td>16</td><td>24.402</td><td>19.664</td><td>0.012</td></tr>
+<tr><td>Strategy H</td><td>0</td><td colspan='3' style='color:var(--muted)'>No candidates on frontier</td></tr></tbody>
+      </table>
+      <div style="margin-top:8px; color:var(--muted)">This summary is based on the Pareto frontier only.</div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Strategy Summary (Full Population)</div>
+      <table>
+        <thead>
+          <tr><th>Strategy</th><th>Count</th><th>Avg Safety</th><th>Avg Impact</th><th>Avg Disp. (in)</th><th>Pass Rate</th></tr>
+        </thead>
+        <tbody><tr><td>Strategy A</td><td>4</td><td>8.674</td><td>23.336</td><td>0.017</td><td>100.00%</td></tr>
+<tr><td>Strategy B</td><td>5</td><td>6.999</td><td>485.004</td><td>0.019</td><td>100.00%</td></tr>
+<tr><td>Strategy C</td><td>11</td><td>14.840</td><td>5.292</td><td>0.016</td><td>100.00%</td></tr>
+<tr><td>Strategy D</td><td>6</td><td>6.616</td><td>4.712</td><td>0.019</td><td>100.00%</td></tr>
+<tr><td>Strategy E</td><td>3</td><td>9.509</td><td>20.386</td><td>0.015</td><td>100.00%</td></tr>
+<tr><td>Strategy F</td><td>9</td><td>17.555</td><td>51.315</td><td>0.015</td><td>100.00%</td></tr>
+<tr><td>Strategy G</td><td>137</td><td>24.779</td><td>21.847</td><td>0.015</td><td>100.00%</td></tr>
+<tr><td>Strategy H</td><td>5</td><td>11.608</td><td>7.877</td><td>0.019</td><td>100.00%</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Abaqus Results (Extracted)</div>
+      <table>
+        <thead>
+          <tr><th>Job</th><th>Max U2 (m)</th><th>Max Smax (Pa)</th><th>Min Smin (Pa)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>retrofit_a</td><td>0.000000</td><td>234.547440</td><td>-234.686020</td></tr><tr><td>retrofit_b</td><td>0.011691</td><td>86.416489</td><td>-71.622108</td></tr><tr><td>retrofit_c</td><td>0.000000</td><td>0.000000</td><td>0.000000</td></tr><tr><td>retrofit_d</td><td>0.000000</td><td>0.000000</td><td>0.000000</td></tr><tr><td>retrofit_e</td><td>0.000103</td><td>890.829895</td><td>-954.389221</td></tr><tr><td>retrofit_f</td><td>0.000008</td><td>674.999878</td><td>-670.663635</td></tr><tr><td>retrofit_g</td><td>0.000000</td><td>793.872131</td><td>-825.446777</td></tr>
+        </tbody>
+      </table>
+      <div style="margin-top:8px; color:var(--muted)">These are extracted FE outputs from the latest available Abaqus jobs in this workspace.</div>
+    </div>
+
+    <div class="triple" style="margin-top:12px">
+      <div class="card small">
+        <div class="k">Sensitivity Tornado A</div>
+        <div style="margin-top:6px; margin-bottom:8px; color:var(--muted)">Hypothesis sweep impact on U2</div>
+        <svg viewBox="0 0 330 220"><text x="8" y="14" font-size="12" fill="#6a625b">Baseline: 0.0002 m (case=h5_embed_tie_aj)</text><text x="8" y="39" font-size="11" fill="#24211f">h2_embed</text><rect x="130" y="28" width="180.00" height="12" fill="#9e3a1f"/><text x="314.00" y="39" font-size="10" fill="#6a625b">0.1910 m</text><text x="8" y="59" font-size="11" fill="#24211f">h6_embed_tie_wa</text><rect x="130" y="48" width="180.00" height="12" fill="#9e3a1f"/><text x="314.00" y="59" font-size="10" fill="#6a625b">0.1910 m</text><text x="8" y="79" font-size="11" fill="#24211f">h1_none</text><rect x="130" y="68" width="177.88" height="12" fill="#9e3a1f"/><text x="311.88" y="79" font-size="10" fill="#6a625b">0.1887 m</text><text x="8" y="99" font-size="11" fill="#24211f">h4_tie_wa</text><rect x="130" y="88" width="177.88" height="12" fill="#9e3a1f"/><text x="311.88" y="99" font-size="10" fill="#6a625b">0.1887 m</text><text x="8" y="119" font-size="11" fill="#24211f">h5_embed_tie_aj</text><rect x="130" y="108" width="0.00" height="12" fill="#1f7a4d"/><text x="134.00" y="119" font-size="10" fill="#6a625b">0.0002 m</text><text x="8" y="139" font-size="11" fill="#24211f">h8_all</text><rect x="130" y="128" width="0.00" height="12" fill="#1f7a4d"/><text x="134.00" y="139" font-size="10" fill="#6a625b">0.0002 m</text></svg>
+      </div>
+      <div class="card small">
+        <div class="k">Sensitivity Tornado B</div>
+        <div style="margin-top:6px; margin-bottom:8px; color:var(--muted)">Mesh/friction/ramp impact on U2</div>
+        <svg viewBox="0 0 330 220"><text x="8" y="14" font-size="12" fill="#6a625b">Baseline: 0.0020 m (case=base)</text><text x="8" y="39" font-size="11" fill="#24211f">fric_low</text><rect x="130" y="28" width="180.00" height="12" fill="#1f7a4d"/><text x="314.00" y="39" font-size="10" fill="#6a625b">0.0019 m</text><text x="8" y="59" font-size="11" fill="#24211f">ramp_slow</text><rect x="130" y="48" width="94.93" height="12" fill="#9e3a1f"/><text x="228.93" y="59" font-size="10" fill="#6a625b">0.0020 m</text><text x="8" y="79" font-size="11" fill="#24211f">combo_worst</text><rect x="130" y="68" width="93.62" height="12" fill="#9e3a1f"/><text x="227.62" y="79" font-size="10" fill="#6a625b">0.0020 m</text><text x="8" y="99" font-size="11" fill="#24211f">ramp_fast</text><rect x="130" y="88" width="86.99" height="12" fill="#1f7a4d"/><text x="220.99" y="99" font-size="10" fill="#6a625b">0.0019 m</text><text x="8" y="119" font-size="11" fill="#24211f">mesh_coarse</text><rect x="130" y="108" width="77.59" height="12" fill="#9e3a1f"/><text x="211.59" y="119" font-size="10" fill="#6a625b">0.0020 m</text><text x="8" y="139" font-size="11" fill="#24211f">fric_high</text><rect x="130" y="128" width="71.63" height="12" fill="#9e3a1f"/><text x="205.63" y="139" font-size="10" fill="#6a625b">0.0020 m</text><text x="8" y="159" font-size="11" fill="#24211f">base</text><rect x="130" y="148" width="0.00" height="12" fill="#1f7a4d"/><text x="134.00" y="159" font-size="10" fill="#6a625b">0.0020 m</text></svg>
+      </div>
+      <div class="card small">
+        <div class="k">Sensitivity Tornado C</div>
+        <div style="margin-top:6px; margin-bottom:8px; color:var(--muted)">Mesh/friction/ramp impact on U2</div>
+        <svg viewBox="0 0 330 220"><text x="8" y="14" font-size="12" fill="#6a625b">Baseline: 0.0002 m (case=base)</text><text x="8" y="39" font-size="11" fill="#24211f">mesh_coarse</text><rect x="130" y="28" width="180.00" height="12" fill="#9e3a1f"/><text x="314.00" y="39" font-size="10" fill="#6a625b">0.1950 m</text><text x="8" y="59" font-size="11" fill="#24211f">combo_worst</text><rect x="130" y="48" width="162.49" height="12" fill="#9e3a1f"/><text x="296.49" y="59" font-size="10" fill="#6a625b">0.1760 m</text><text x="8" y="79" font-size="11" fill="#24211f">ramp_slow</text><rect x="130" y="68" width="0.23" height="12" fill="#9e3a1f"/><text x="134.23" y="79" font-size="10" fill="#6a625b">0.0005 m</text><text x="8" y="99" font-size="11" fill="#24211f">ramp_fast</text><rect x="130" y="88" width="0.11" height="12" fill="#1f7a4d"/><text x="134.11" y="99" font-size="10" fill="#6a625b">0.0001 m</text><text x="8" y="119" font-size="11" fill="#24211f">fric_high</text><rect x="130" y="108" width="0.06" height="12" fill="#1f7a4d"/><text x="134.06" y="119" font-size="10" fill="#6a625b">0.0001 m</text><text x="8" y="139" font-size="11" fill="#24211f">fric_low</text><rect x="130" y="128" width="0.05" height="12" fill="#1f7a4d"/><text x="134.05" y="139" font-size="10" fill="#6a625b">0.0002 m</text><text x="8" y="159" font-size="11" fill="#24211f">base</text><rect x="130" y="148" width="0.00" height="12" fill="#1f7a4d"/><text x="134.00" y="159" font-size="10" fill="#6a625b">0.0002 m</text></svg>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Sensitivity Case Results</div>
+      <table>
+        <thead>
+          <tr><th>#</th><th>Strategy</th><th>Case</th><th>Status</th><th>Max U2 (m)</th><th>Max Smax (Pa)</th><th>Pass/Fail</th></tr>
+        </thead>
+        <tbody><tr><td>1</td><td>A</td><td>h1_none</td><td>ok</td><td>0.188710</td><td>9926260.00</td><td>FAIL</td></tr><tr><td>2</td><td>A</td><td>h2_embed</td><td>ok</td><td>0.190955</td><td>22483878.00</td><td>FAIL</td></tr><tr><td>3</td><td>A</td><td>h3_tie_aj</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>4</td><td>A</td><td>h4_tie_wa</td><td>ok</td><td>0.188710</td><td>9926260.00</td><td>FAIL</td></tr><tr><td>5</td><td>A</td><td>h5_embed_tie_aj</td><td>ok</td><td>0.000165</td><td>26031338.00</td><td>PASS</td></tr><tr><td>6</td><td>A</td><td>h6_embed_tie_wa</td><td>ok</td><td>0.190955</td><td>22483878.00</td><td>FAIL</td></tr><tr><td>7</td><td>A</td><td>h7_tie_wa_tie_aj</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>8</td><td>A</td><td>h8_all</td><td>ok</td><td>0.000165</td><td>26031338.00</td><td>PASS</td></tr><tr><td>9</td><td>B</td><td>base</td><td>ok</td><td>0.001957</td><td>3421272.75</td><td>PASS</td></tr><tr><td>10</td><td>B</td><td>combo_best</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>11</td><td>B</td><td>combo_worst</td><td>ok</td><td>0.001975</td><td>31320804.00</td><td>PASS</td></tr><tr><td>12</td><td>B</td><td>fric_high</td><td>ok</td><td>0.001971</td><td>3904806.50</td><td>PASS</td></tr><tr><td>13</td><td>B</td><td>fric_low</td><td>ok</td><td>0.001922</td><td>3531788.00</td><td>PASS</td></tr><tr><td>14</td><td>B</td><td>mesh_coarse</td><td>ok</td><td>0.001972</td><td>52872008.00</td><td>PASS</td></tr><tr><td>15</td><td>B</td><td>mesh_fine</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>16</td><td>B</td><td>ramp_fast</td><td>ok</td><td>0.001940</td><td>2818542.00</td><td>PASS</td></tr><tr><td>17</td><td>B</td><td>ramp_slow</td><td>ok</td><td>0.001975</td><td>2802011.75</td><td>PASS</td></tr><tr><td>18</td><td>C</td><td>base</td><td>ok</td><td>0.000207</td><td>8251553.00</td><td>PASS</td></tr><tr><td>19</td><td>C</td><td>combo_best</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>20</td><td>C</td><td>combo_worst</td><td>ok</td><td>0.176008</td><td>40751176.00</td><td>FAIL</td></tr><tr><td>21</td><td>C</td><td>fric_high</td><td>ok</td><td>0.000139</td><td>4166019.50</td><td>PASS</td></tr><tr><td>22</td><td>C</td><td>fric_low</td><td>ok</td><td>0.000157</td><td>4650876.50</td><td>PASS</td></tr><tr><td>23</td><td>C</td><td>mesh_coarse</td><td>ok</td><td>0.194953</td><td>23892324.00</td><td>FAIL</td></tr><tr><td>24</td><td>C</td><td>mesh_fine</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>25</td><td>C</td><td>ramp_fast</td><td>ok</td><td>0.000088</td><td>769539.19</td><td>PASS</td></tr><tr><td>26</td><td>C</td><td>ramp_slow</td><td>ok</td><td>0.000453</td><td>24697270.00</td><td>PASS</td></tr><tr><td>27</td><td>D</td><td>base</td><td>ok</td><td>0.159172</td><td>17400842.00</td><td>FAIL</td></tr><tr><td>28</td><td>D</td><td>combo_best</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>29</td><td>D</td><td>combo_worst</td><td>ok</td><td>0.156666</td><td>67401272.00</td><td>FAIL</td></tr><tr><td>30</td><td>D</td><td>fric_high</td><td>ok</td><td>0.163730</td><td>40940372.00</td><td>FAIL</td></tr><tr><td>31</td><td>D</td><td>fric_low</td><td>ok</td><td>0.161745</td><td>21484304.00</td><td>FAIL</td></tr><tr><td>32</td><td>D</td><td>mesh_coarse</td><td>ok</td><td>0.193182</td><td>14367468.00</td><td>FAIL</td></tr><tr><td>33</td><td>D</td><td>mesh_fine</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>34</td><td>D</td><td>ramp_fast</td><td>ok</td><td>0.024975</td><td>9241920.00</td><td>FAIL</td></tr><tr><td>35</td><td>D</td><td>ramp_slow</td><td>ok</td><td>0.174190</td><td>10701556.00</td><td>FAIL</td></tr><tr><td>36</td><td>D</td><td>trial_h5</td><td>ok</td><td>0.000349</td><td>134171320.00</td><td>PASS</td></tr><tr><td>37</td><td>E</td><td>base</td><td>ok</td><td>0.000589</td><td>2375661.50</td><td>PASS</td></tr><tr><td>38</td><td>E</td><td>combo_best</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>39</td><td>E</td><td>combo_worst</td><td>ok</td><td>0.000269</td><td>193545.42</td><td>PASS</td></tr><tr><td>40</td><td>E</td><td>fric_high</td><td>ok</td><td>0.000623</td><td>3455054.00</td><td>PASS</td></tr><tr><td>41</td><td>E</td><td>fric_low</td><td>ok</td><td>0.000614</td><td>3264234.00</td><td>PASS</td></tr><tr><td>42</td><td>E</td><td>mesh_coarse</td><td>ok</td><td>0.000260</td><td>3609373.50</td><td>PASS</td></tr><tr><td>43</td><td>E</td><td>mesh_fine</td><td>extract_error</td><td></td><td></td><td>N/A</td></tr><tr><td>44</td><td>E</td><td>ramp_fast</td><td>ok</td><td>0.000548</td><td>1352510.75</td><td>PASS</td></tr><tr><td>45</td><td>E</td><td>ramp_slow</td><td>ok</td><td>0.000591</td><td>8668540.00</td><td>PASS</td></tr><tr><td>46</td><td>E</td><td>trial_h5</td><td>ok</td><td>0.000653</td><td>6700654.00</td><td>PASS</td></tr><tr><td>47</td><td>F</td><td>base</td><td>ok</td><td>0.000008</td><td>546.57</td><td>PASS</td></tr><tr><td>48</td><td>F</td><td>combo_best</td><td>ok</td><td>0.003160</td><td>589.25</td><td>PASS</td></tr><tr><td>49</td><td>F</td><td>combo_worst</td><td>ok</td><td>0.000006</td><td>655.76</td><td>PASS</td></tr><tr><td>50</td><td>F</td><td>fric_high</td><td>ok</td><td>0.000008</td><td>545.18</td><td>PASS</td></tr><tr><td>51</td><td>F</td><td>fric_low</td><td>ok</td><td>0.000008</td><td>556.00</td><td>PASS</td></tr><tr><td>52</td><td>F</td><td>mesh_coarse</td><td>ok</td><td>0.000010</td><td>325.54</td><td>PASS</td></tr><tr><td>53</td><td>F</td><td>mesh_fine</td><td>ok</td><td>0.003160</td><td>464.05</td><td>PASS</td></tr><tr><td>54</td><td>F</td><td>ramp_fast</td><td>ok</td><td>0.000008</td><td>615.19</td><td>PASS</td></tr><tr><td>55</td><td>F</td><td>ramp_slow</td><td>ok</td><td>0.000008</td><td>442.08</td><td>PASS</td></tr><tr><td>56</td><td>G</td><td>base</td><td>ok</td><td>0.000000</td><td>474.40</td><td>PASS</td></tr><tr><td>57</td><td>G</td><td>combo_best</td><td>ok</td><td>0.003160</td><td>318.19</td><td>PASS</td></tr><tr><td>58</td><td>G</td><td>combo_worst</td><td>ok</td><td>0.000000</td><td>0.00</td><td>PASS</td></tr><tr><td>59</td><td>G</td><td>fric_high</td><td>ok</td><td>0.000000</td><td>474.40</td><td>PASS</td></tr><tr><td>60</td><td>G</td><td>fric_low</td><td>ok</td><td>0.000000</td><td>474.40</td><td>PASS</td></tr><tr><td>61</td><td>G</td><td>mesh_coarse</td><td>ok</td><td>0.000000</td><td>0.00</td><td>PASS</td></tr><tr><td>62</td><td>G</td><td>mesh_fine</td><td>ok</td><td>0.003160</td><td>226.35</td><td>PASS</td></tr><tr><td>63</td><td>G</td><td>ramp_fast</td><td>ok</td><td>0.000000</td><td>195.76</td><td>PASS</td></tr><tr><td>64</td><td>G</td><td>ramp_slow</td><td>ok</td><td>0.000001</td><td>529.09</td><td>PASS</td></tr><tr><td>65</td><td>H</td><td>base</td><td>ok</td><td>0.000001</td><td>598.80</td><td>PASS</td></tr><tr><td>66</td><td>H</td><td>combo_best</td><td>ok</td><td>0.003160</td><td>0.00</td><td>PASS</td></tr><tr><td>67</td><td>H</td><td>combo_worst</td><td>ok</td><td>0.000000</td><td>0.00</td><td>PASS</td></tr><tr><td>68</td><td>H</td><td>fric_high</td><td>ok</td><td>0.000002</td><td>674.81</td><td>PASS</td></tr><tr><td>69</td><td>H</td><td>fric_low</td><td>ok</td><td>0.000001</td><td>679.98</td><td>PASS</td></tr><tr><td>70</td><td>H</td><td>mesh_coarse</td><td>ok</td><td>0.000000</td><td>0.00</td><td>PASS</td></tr><tr><td>71</td><td>H</td><td>mesh_fine</td><td>ok</td><td>0.003160</td><td>0.00</td><td>PASS</td></tr><tr><td>72</td><td>H</td><td>ramp_fast</td><td>ok</td><td>0.000000</td><td>375.16</td><td>PASS</td></tr><tr><td>73</td><td>H</td><td>ramp_slow</td><td>ok</td><td>0.000002</td><td>423.07</td><td>PASS</td></tr><tr><td>74</td><td>N</td><td>no_retrofit_base_h1</td><td>ok</td><td>0.192625</td><td>284401.38</td><td>FAIL</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="k">Robustness Ranking</div>
+      <table>
+        <thead>
+          <tr><th>Strategy</th><th>Valid Runs</th><th>Mean U2 (m)</th><th>Worst-Case U2 (m)</th><th>Pass Rate (U2≤0.0127m)</th></tr>
+        </thead>
+        <tbody><tr><td>N</td><td>1</td><td>0.192625</td><td>0.192625</td><td>0.0%</td></tr><tr><td>A</td><td>6</td><td>0.126610</td><td>0.190955</td><td>33.3%</td></tr><tr><td>B</td><td>7</td><td>0.001959</td><td>0.001975</td><td>100.0%</td></tr><tr><td>C</td><td>7</td><td>0.053144</td><td>0.194953</td><td>71.4%</td></tr><tr><td>D</td><td>8</td><td>0.129251</td><td>0.193182</td><td>12.5%</td></tr><tr><td>E</td><td>8</td><td>0.000518</td><td>0.000653</td><td>100.0%</td></tr><tr><td>F</td><td>9</td><td>0.000709</td><td>0.003160</td><td>100.0%</td></tr><tr><td>G</td><td>9</td><td>0.000702</td><td>0.003160</td><td>100.0%</td></tr><tr><td>H</td><td>9</td><td>0.000703</td><td>0.003160</td><td>100.0%</td></tr></tbody>
+      </table>
+      <div style="margin-top:8px; color:var(--muted)">Computed from sensitivity runs only; strategies without sensitivity cases are shown with zero runs.</div>
+    </div>
+  </div>
+
+  <!-- Static HTML; no JS required -->
+</body>
+</html>

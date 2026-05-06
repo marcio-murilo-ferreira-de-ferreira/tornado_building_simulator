@@ -1,0 +1,6 @@
+{
+  "image_dir": "fe_images",
+  "strategies": [
+    {
+      "strategy": "A",
+      "job": "retr

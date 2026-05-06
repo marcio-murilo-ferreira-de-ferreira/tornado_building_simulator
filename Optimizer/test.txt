@@ -1,0 +1,7 @@
+{
+  "inputs": {
+    "span_ft": 40.0,
+    "spacing_in": 16.0,
+    "wind_mph": 135.0
+  },
+  "dem

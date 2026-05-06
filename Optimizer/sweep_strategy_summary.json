@@ -1,0 +1,279 @@
+{
+  "strategies": {
+    "A": {
+      "n_total": 8,
+      "n_ok": 2,
+      "best_by_u2": {
+        "status": "ok",
+        "min_smin": -83278368.0,
+        "job": "retrofit_a_h1_none",
+        "max_smax": 18129798.0,
+        "max_u2": 0.18809562921524048,
+        "strategy": "A",
+        "hypothesis": "h1_none"
+      },
+      "rows": [
+        {
+          "status": "ok",
+          "min_smin": -83278368.0,
+          "job": "retrofit_a_h1_none",
+          "max_smax": 18129798.0,
+          "max_u2": 0.18809562921524048,
+          "strategy": "A",
+          "hypothesis": "h1_none"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_a_h2_embed",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "A",
+          "hypothesis": "h2_embed"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_a_h3_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "A",
+          "hypothesis": "h3_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -83278368.0,
+          "job": "retrofit_a_h4_tie_wa",
+          "max_smax": 18129798.0,
+          "max_u2": 0.18809562921524048,
+          "strategy": "A",
+          "hypothesis": "h4_tie_wa"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_a_h5_embed_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "A",
+          "hypothesis": "h5_embed_tie_aj"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_a_h6_embed_tie_wa",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "A",
+          "hypothesis": "h6_embed_tie_wa"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_a_h7_tie_wa_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "A",
+          "hypothesis": "h7_tie_wa_tie_aj"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_a_h8_all",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "A",
+          "hypothesis": "h8_all"
+        }
+      ]
+    },
+    "B": {
+      "n_total": 8,
+      "n_ok": 6,
+      "best_by_u2": {
+        "status": "ok",
+        "min_smin": -21870580.0,
+        "job": "retrofit_b_h5_embed_tie_aj",
+        "max_smax": 3421272.75,
+        "max_u2": 0.0019571464508771896,
+        "strategy": "B",
+        "hypothesis": "h5_embed_tie_aj"
+      },
+      "rows": [
+        {
+          "status": "ok",
+          "min_smin": -741356.125,
+          "job": "retrofit_b_h1_none",
+          "max_smax": 4730570.0,
+          "max_u2": 0.16663852334022522,
+          "strategy": "B",
+          "hypothesis": "h1_none"
+        },
+        {
+          "status": "ok",
+          "min_smin": -7667910.5,
+          "job": "retrofit_b_h2_embed",
+          "max_smax": 10595586.0,
+          "max_u2": 0.18957053124904633,
+          "strategy": "B",
+          "hypothesis": "h2_embed"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_b_h3_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "B",
+          "hypothesis": "h3_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -741356.125,
+          "job": "retrofit_b_h4_tie_wa",
+          "max_smax": 4730570.0,
+          "max_u2": 0.16663852334022522,
+          "strategy": "B",
+          "hypothesis": "h4_tie_wa"
+        },
+        {
+          "status": "ok",
+          "min_smin": -21870580.0,
+          "job": "retrofit_b_h5_embed_tie_aj",
+          "max_smax": 3421272.75,
+          "max_u2": 0.0019571464508771896,
+          "strategy": "B",
+          "hypothesis": "h5_embed_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -7667910.5,
+          "job": "retrofit_b_h6_embed_tie_wa",
+          "max_smax": 10595586.0,
+          "max_u2": 0.18957053124904633,
+          "strategy": "B",
+          "hypothesis": "h6_embed_tie_wa"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_b_h7_tie_wa_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "B",
+          "hypothesis": "h7_tie_wa_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -21870580.0,
+          "job": "retrofit_b_h8_all",
+          "max_smax": 3421272.75,
+          "max_u2": 0.0019571464508771896,
+          "strategy": "B",
+          "hypothesis": "h8_all"
+        }
+      ]
+    },
+    "C": {
+      "n_total": 8,
+      "n_ok": 6,
+      "best_by_u2": {
+        "status": "ok",
+        "min_smin": -16678219.0,
+        "job": "retrofit_c_h5_embed_tie_aj",
+        "max_smax": 8251553.0,
+        "max_u2": 0.00020682047761511058,
+        "strategy": "C",
+        "hypothesis": "h5_embed_tie_aj"
+      },
+      "rows": [
+        {
+          "status": "ok",
+          "min_smin": -57258000.0,
+          "job": "retrofit_c_h1_none",
+          "max_smax": 9719238.0,
+          "max_u2": 0.19833381474018097,
+          "strategy": "C",
+          "hypothesis": "h1_none"
+        },
+        {
+          "status": "ok",
+          "min_smin": -15962298.0,
+          "job": "retrofit_c_h2_embed",
+          "max_smax": 19730244.0,
+          "max_u2": 0.18426361680030823,
+          "strategy": "C",
+          "hypothesis": "h2_embed"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_c_h3_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "C",
+          "hypothesis": "h3_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -57258000.0,
+          "job": "retrofit_c_h4_tie_wa",
+          "max_smax": 9719238.0,
+          "max_u2": 0.19833381474018097,
+          "strategy": "C",
+          "hypothesis": "h4_tie_wa"
+        },
+        {
+          "status": "ok",
+          "min_smin": -16678219.0,
+          "job": "retrofit_c_h5_embed_tie_aj",
+          "max_smax": 8251553.0,
+          "max_u2": 0.00020682047761511058,
+          "strategy": "C",
+          "hypothesis": "h5_embed_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -15962298.0,
+          "job": "retrofit_c_h6_embed_tie_wa",
+          "max_smax": 19730244.0,
+          "max_u2": 0.18426361680030823,
+          "strategy": "C",
+          "hypothesis": "h6_embed_tie_wa"
+        },
+        {
+          "status": "extract_error",
+          "max_u2": null,
+          "max_smax": null,
+          "job": "retrofit_c_h7_tie_wa_tie_aj",
+          "min_smin": null,
+          "error": "0",
+          "strategy": "C",
+          "hypothesis": "h7_tie_wa_tie_aj"
+        },
+        {
+          "status": "ok",
+          "min_smin": -16678219.0,
+          "job": "retrofit_c_h8_all",
+          "max_smax": 8251553.0,
+          "max_u2": 0.00020682047761511058,
+          "strategy": "C",
+          "hypothesis": "h8_all"
+        }
+      ]
+    }
+  },
+  "status_counts": {
+    "ok": 14,
+    "extract_error": 10
+  }
+}

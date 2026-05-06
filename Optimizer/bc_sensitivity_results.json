@@ -1,0 +1,453 @@
+{
+  "results": [
+    {
+      "status": "ok",
+      "min_smin": -21870580.0,
+      "job": "sens_b_base_h5",
+      "max_smax": 3421272.75,
+      "max_u2": 0.0019571464508771896
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_b_combo_best_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -1143100.125,
+      "job": "sens_b_combo_worst_h5",
+      "max_smax": 31320804.0,
+      "max_u2": 0.0019751759245991707
+    },
+    {
+      "status": "ok",
+      "min_smin": -23525578.0,
+      "job": "sens_b_fric_high_h5",
+      "max_smax": 3904806.5,
+      "max_u2": 0.001970941899344325
+    },
+    {
+      "status": "ok",
+      "min_smin": -30059010.0,
+      "job": "sens_b_fric_low_h5",
+      "max_smax": 3531788.0,
+      "max_u2": 0.001922480296343565
+    },
+    {
+      "status": "ok",
+      "min_smin": -1129329.0,
+      "job": "sens_b_mesh_coarse_h5",
+      "max_smax": 52872008.0,
+      "max_u2": 0.0019720885902643204
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_b_mesh_fine_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -5804697.5,
+      "job": "sens_b_ramp_fast_h5",
+      "max_smax": 2818542.0,
+      "max_u2": 0.0019403928890824318
+    },
+    {
+      "status": "ok",
+      "min_smin": -24172122.0,
+      "job": "sens_b_ramp_slow_h5",
+      "max_smax": 2802011.75,
+      "max_u2": 0.0019754290115088224
+    },
+    {
+      "status": "ok",
+      "min_smin": -16678219.0,
+      "job": "sens_c_base_h5",
+      "max_smax": 8251553.0,
+      "max_u2": 0.00020682047761511058
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_c_combo_best_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -38029244.0,
+      "job": "sens_c_combo_worst_h5",
+      "max_smax": 40751176.0,
+      "max_u2": 0.1760081946849823
+    },
+    {
+      "status": "ok",
+      "min_smin": -16088965.0,
+      "job": "sens_c_fric_high_h5",
+      "max_smax": 4166019.5,
+      "max_u2": 0.00013908138498663902
+    },
+    {
+      "status": "ok",
+      "min_smin": -17281514.0,
+      "job": "sens_c_fric_low_h5",
+      "max_smax": 4650876.5,
+      "max_u2": 0.00015748714213259518
+    },
+    {
+      "status": "ok",
+      "min_smin": -31047908.0,
+      "job": "sens_c_mesh_coarse_h5",
+      "max_smax": 23892324.0,
+      "max_u2": 0.19495339691638947
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_c_mesh_fine_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -11822206.0,
+      "job": "sens_c_ramp_fast_h5",
+      "max_smax": 769539.1875,
+      "max_u2": 8.751804125495255e-05
+    },
+    {
+      "status": "ok",
+      "min_smin": -41336008.0,
+      "job": "sens_c_ramp_slow_h5",
+      "max_smax": 24697270.0,
+      "max_u2": 0.0004527242563199252
+    },
+    {
+      "status": "ok",
+      "min_smin": -13505745.0,
+      "job": "sens_d_base_h5",
+      "max_smax": 17400842.0,
+      "max_u2": 0.15917231142520905
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_d_combo_best_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -5935099.5,
+      "job": "sens_d_combo_worst_h5",
+      "max_smax": 67401272.0,
+      "max_u2": 0.15666592121124268
+    },
+    {
+      "status": "ok",
+      "min_smin": -24247968.0,
+      "job": "sens_d_fric_high_h5",
+      "max_smax": 40940372.0,
+      "max_u2": 0.1637295037508011
+    },
+    {
+      "status": "ok",
+      "min_smin": -13307785.0,
+      "job": "sens_d_fric_low_h5",
+      "max_smax": 21484304.0,
+      "max_u2": 0.16174481809139252
+    },
+    {
+      "status": "ok",
+      "min_smin": -49627736.0,
+      "job": "sens_d_mesh_coarse_h5",
+      "max_smax": 14367468.0,
+      "max_u2": 0.1931818127632141
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_d_mesh_fine_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -27828156.0,
+      "job": "sens_d_ramp_fast_h5",
+      "max_smax": 9241920.0,
+      "max_u2": 0.024974549189209938
+    },
+    {
+      "status": "ok",
+      "min_smin": -29109594.0,
+      "job": "sens_d_ramp_slow_h5",
+      "max_smax": 10701556.0,
+      "max_u2": 0.1741904318332672
+    },
+    {
+      "status": "ok",
+      "min_smin": -1903169.375,
+      "job": "sens_e_base_h5",
+      "max_smax": 2375661.5,
+      "max_u2": 0.0005891608307138085
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_e_combo_best_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -3090504.25,
+      "job": "sens_e_combo_worst_h5",
+      "max_smax": 193545.421875,
+      "max_u2": 0.0002690635737963021
+    },
+    {
+      "status": "ok",
+      "min_smin": -15713903.0,
+      "job": "sens_e_fric_high_h5",
+      "max_smax": 3455054.0,
+      "max_u2": 0.0006229004357010126
+    },
+    {
+      "status": "ok",
+      "min_smin": -15557112.0,
+      "job": "sens_e_fric_low_h5",
+      "max_smax": 3264234.0,
+      "max_u2": 0.0006135753355920315
+    },
+    {
+      "status": "ok",
+      "min_smin": -12580901.0,
+      "job": "sens_e_mesh_coarse_h5",
+      "max_smax": 3609373.5,
+      "max_u2": 0.0002604565233923495
+    },
+    {
+      "status": "extract_error",
+      "max_u2": null,
+      "max_smax": null,
+      "job": "sens_e_mesh_fine_h5",
+      "min_smin": null,
+      "error": "'GustStep'"
+    },
+    {
+      "status": "ok",
+      "min_smin": -1937121.875,
+      "job": "sens_e_ramp_fast_h5",
+      "max_smax": 1352510.75,
+      "max_u2": 0.0005476608639582992
+    },
+    {
+      "status": "ok",
+      "min_smin": -1846734.0,
+      "job": "sens_e_ramp_slow_h5",
+      "max_smax": 8668540.0,
+      "max_u2": 0.0005908893654122949
+    },
+    {
+      "status": "ok",
+      "min_smin": -555.0880126953125,
+      "job": "sens_f_base_h5",
+      "max_smax": 546.5693359375,
+      "max_u2": 8.26911400508834e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -595.1932373046875,
+      "job": "sens_f_combo_best_h5",
+      "max_smax": 589.2508544921875,
+      "max_u2": 0.0031597891356796026
+    },
+    {
+      "status": "ok",
+      "min_smin": -647.0613403320312,
+      "job": "sens_f_combo_worst_h5",
+      "max_smax": 655.7584228515625,
+      "max_u2": 6.288467375270557e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -554.2166748046875,
+      "job": "sens_f_fric_high_h5",
+      "max_smax": 545.1758422851562,
+      "max_u2": 8.308132237289101e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -587.24072265625,
+      "job": "sens_f_fric_low_h5",
+      "max_smax": 556.0010986328125,
+      "max_u2": 8.290789992315695e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -402.02899169921875,
+      "job": "sens_f_mesh_coarse_h5",
+      "max_smax": 325.5373840332031,
+      "max_u2": 9.50063895288622e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -491.22021484375,
+      "job": "sens_f_mesh_fine_h5",
+      "max_smax": 464.04766845703125,
+      "max_u2": 0.0031597723718732595
+    },
+    {
+      "status": "ok",
+      "min_smin": -630.5658569335938,
+      "job": "sens_f_ramp_fast_h5",
+      "max_smax": 615.1944580078125,
+      "max_u2": 8.434995834250003e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -451.9999084472656,
+      "job": "sens_f_ramp_slow_h5",
+      "max_smax": 442.0838317871094,
+      "max_u2": 8.403490937780589e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -476.7107849121094,
+      "job": "sens_g_base_h5",
+      "max_smax": 474.3963928222656,
+      "max_u2": 4.092323138138454e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": -317.5789489746094,
+      "job": "sens_g_combo_best_h5",
+      "max_smax": 318.1927795410156,
+      "max_u2": 0.0031597763299942017
+    },
+    {
+      "status": "ok",
+      "min_smin": 0.0,
+      "job": "sens_g_combo_worst_h5",
+      "max_smax": 0.0,
+      "max_u2": 0.0
+    },
+    {
+      "status": "ok",
+      "min_smin": -476.7107849121094,
+      "job": "sens_g_fric_high_h5",
+      "max_smax": 474.3963928222656,
+      "max_u2": 4.092323138138454e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": -476.7107849121094,
+      "job": "sens_g_fric_low_h5",
+      "max_smax": 474.3963928222656,
+      "max_u2": 4.092323138138454e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": 0.0,
+      "job": "sens_g_mesh_coarse_h5",
+      "max_smax": 0.0,
+      "max_u2": 0.0
+    },
+    {
+      "status": "ok",
+      "min_smin": -226.32061767578125,
+      "job": "sens_g_mesh_fine_h5",
+      "max_smax": 226.35025024414062,
+      "max_u2": 0.003159773536026478
+    },
+    {
+      "status": "ok",
+      "min_smin": -241.52452087402344,
+      "job": "sens_g_ramp_fast_h5",
+      "max_smax": 195.7552490234375,
+      "max_u2": 1.4469355846813414e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": -527.0355224609375,
+      "job": "sens_g_ramp_slow_h5",
+      "max_smax": 529.0914306640625,
+      "max_u2": 8.504016477672849e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": -646.2393798828125,
+      "job": "sens_h_base_h5",
+      "max_smax": 598.7998046875,
+      "max_u2": 7.845495133551594e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": 0.0,
+      "job": "sens_h_combo_best_h5",
+      "max_smax": 0.0,
+      "max_u2": 0.003159770742058754
+    },
+    {
+      "status": "ok",
+      "min_smin": 0.0,
+      "job": "sens_h_combo_worst_h5",
+      "max_smax": 0.0,
+      "max_u2": 0.0
+    },
+    {
+      "status": "ok",
+      "min_smin": -732.4700317382812,
+      "job": "sens_h_fric_high_h5",
+      "max_smax": 674.81298828125,
+      "max_u2": 2.0044190023327246e-06
+    },
+    {
+      "status": "ok",
+      "min_smin": -736.6499633789062,
+      "job": "sens_h_fric_low_h5",
+      "max_smax": 679.9791870117188,
+      "max_u2": 7.203702807601076e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": 0.0,
+      "job": "sens_h_mesh_coarse_h5",
+      "max_smax": 0.0,
+      "max_u2": 0.0
+    },
+    {
+      "status": "ok",
+      "min_smin": 0.0,
+      "job": "sens_h_mesh_fine_h5",
+      "max_smax": 0.0,
+      "max_u2": 0.003159770742058754
+    },
+    {
+      "status": "ok",
+      "min_smin": -449.5892639160156,
+      "job": "sens_h_ramp_fast_h5",
+      "max_smax": 375.1558837890625,
+      "max_u2": 3.084346360537893e-07
+    },
+    {
+      "status": "ok",
+      "min_smin": -554.2385864257812,
+      "job": "sens_h_ramp_slow_h5",
+      "max_smax": 423.07281494140625,
+      "max_u2": 1.570175072629354e-06
+    }
+  ]
+}

@@ -1,0 +1,5411 @@
+{
+  "load": {
+    "span_ft": 40.0,
+    "spacing_in": 16.0,
+    "wind_speed_mph": 135.0,
+    "force_lbf": 746.4960000000001,
+    "force_n": 3320.579642905502
+  },
+  "candidates": [
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 29.47865360609063,
+        "embedment_length_in": 11.158587971385387,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 8.482864236268124,
+        "holdown_thickness_in": 0.2642548583982617,
+        "holdown_bolt_diameter_in": 0.41029876572738094,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 18.99345607084026
+      },
+      "fitness": {
+        "safety_score": 16.317258696877285,
+        "impact_score": 34.60457355724125,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02402481998330501,
+        "capacity_margin": 11470.14121222062
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "D",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 1.0749913168839698,
+        "strap_thickness_in": 0.1650468525493579,
+        "strap_leg_length_in": 6.5588433885969515,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 4.930397831959686,
+        "impact_score": 4.71238898038469,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022404428594048172,
+        "capacity_margin": 2967.475892622064
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "B",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 7.3062835227483145,
+        "bolt_diameter_in": 0.5295552530394946,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 4.3495603348720335,
+        "impact_score": 276.615801855187,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02536589094878264,
+        "capacity_margin": 2538.304464000039
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "B",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 9.684698204244924,
+        "bolt_diameter_in": 0.8153129578658685,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 7.848286221415833,
+        "impact_score": 573.8366314993625,
+        "pass_fail": 1.0,
+        "displacement_in": 0.012781997553873808,
+        "capacity_margin": 5131.301691233987
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "A",
+        "embedment_depth_in": 44.77570615022995,
+        "rod_diameter_in": 0.6983402373253901,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 7.684800693402474,
+        "impact_score": 17.15009213187525,
+        "pass_fail": 1.0,
+        "displacement_in": 0.012046650199590812,
+        "capacity_margin": 5008.162530796962
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "D",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 1.0931653612355126,
+        "strap_thickness_in": 0.22877026885730192,
+        "strap_leg_length_in": 8.31687429065341,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 6.731323324551831,
+        "impact_score": 4.71238898038469,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0039371928847772575,
+        "capacity_margin": 4284.2881339640735
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 46.22057656596428,
+        "embedment_length_in": 9.425482137880406,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 15.441693101327441,
+        "impact_score": 5.783403406427129,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02800741633871575,
+        "capacity_margin": 10822.480981902903
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 33.09167137330774,
+        "embedment_length_in": 9.427226348470754,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 11.68537116282398,
+        "impact_score": 5.7844736406413775,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01805171708550313,
+        "capacity_margin": 8003.53790075837
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "D",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 1.7447950854514624,
+        "strap_thickness_in": 0.18216166985643367,
+        "strap_leg_length_in": 6.502311799786585,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 7.315271208208943,
+        "impact_score": 4.71238898038469,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02543427228415296,
+        "capacity_margin": 4752.297860889205
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "A",
+        "embedment_depth_in": 46.28434535424794,
+        "rod_diameter_in": 0.7482072475567458,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 8.261344219292516,
+        "impact_score": 20.350160003412707,
+        "pass_fail": 1.0,
+        "displacement_in": 0.03169354269959677,
+        "capacity_margin": 5467.882620027144
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.326745299769684,
+        "holdown_thickness_in": 0.1931203731679348,
+        "holdown_bolt_diameter_in": 0.7212905188645731,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 19.84844913512939,
+        "impact_score": 20.800289365258386,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009138934523073346,
+        "capacity_margin": 14083.936241709023
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 22.997669968636824,
+        "embedment_length_in": 14.35503585217993,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 14.989944337295713,
+        "holdown_thickness_in": 0.14881930214443057,
+        "holdown_bolt_diameter_in": 0.5904088913470016,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 18.302358045737417
+      },
+      "fitness": {
+        "safety_score": 18.387504587307944,
+        "impact_score": 55.58807383119209,
+        "pass_fail": 1.0,
+        "displacement_in": 0.00474190899945078,
+        "capacity_margin": 12986.782256607941
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 27.294452894392176,
+        "embedment_length_in": 10.303502119121493,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.801748474925823,
+        "holdown_thickness_in": 0.12361315565099243,
+        "holdown_bolt_diameter_in": 0.5317960581694602,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 21.085691154782992
+      },
+      "fitness": {
+        "safety_score": 16.47529071756875,
+        "impact_score": 48.733274045297605,
+        "pass_fail": 1.0,
+        "displacement_in": 0.010195051049662299,
+        "capacity_margin": 11567.463749158942
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 57.998106365419126,
+        "embedment_length_in": 8.530190126860466,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 16.424284572842975,
+        "impact_score": 5.234059108646295,
+        "pass_fail": 1.0,
+        "displacement_in": 0.024717363948470853,
+        "capacity_margin": 11551.069563125147
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "B",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 8.587425197276879,
+        "bolt_diameter_in": 0.7865129701386919,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 7.14315770961134,
+        "impact_score": 500.1617802871559,
+        "pass_fail": 1.0,
+        "displacement_in": 0.020932083458186142,
+        "capacity_margin": 4617.094090740432
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.326745299769684,
+        "holdown_thickness_in": 0.1931203731679348,
+        "holdown_bolt_diameter_in": 0.7212905188645731,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 19.83458972177703,
+        "impact_score": 20.800289365258386,
+        "pass_fail": 1.0,
+        "displacement_in": 0.016068641199255152,
+        "capacity_margin": 14083.936241709023
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 22.997669968636824,
+        "embedment_length_in": 14.35503585217993,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 14.989944337295713,
+        "holdown_thickness_in": 0.14881930214443057,
+        "holdown_bolt_diameter_in": 0.5904088913470016,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 18.302358045737417
+      },
+      "fitness": {
+        "safety_score": 18.3727521454086,
+        "impact_score": 55.58807383119209,
+        "pass_fail": 1.0,
+        "displacement_in": 0.012118129949122196,
+        "capacity_margin": 12986.782256607941
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 57.998106365419126,
+        "embedment_length_in": 8.530190126860466,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 16.44752801996276,
+        "impact_score": 5.234059108646295,
+        "pass_fail": 1.0,
+        "displacement_in": 0.013095640388578071,
+        "capacity_margin": 11551.069563125147
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 53.64384189297035,
+        "embedment_length_in": 8.052181143506184,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 14.706759178924123,
+        "impact_score": 4.940756469885407,
+        "pass_fail": 1.0,
+        "displacement_in": 0.03056392669618174,
+        "capacity_margin": 10277.67259807613
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 57.540618193739434,
+        "embedment_length_in": 7.76088537758654,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 14.879516972006577,
+        "impact_score": 4.762019626480141,
+        "pass_fail": 1.0,
+        "displacement_in": 0.016619061453353755,
+        "capacity_margin": 10385.816027332388
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 57.527839531357735,
+        "embedment_length_in": 8.362486290704432,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 16.044895166683983,
+        "impact_score": 5.131157323559063,
+        "pass_fail": 1.0,
+        "displacement_in": 0.010786345938968924,
+        "capacity_margin": 11247.057990545043
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 16.63986654235362,
+        "holdown_thickness_in": 0.24089464866696964,
+        "holdown_bolt_diameter_in": 0.6207870863164395,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 18.5356934429312,
+        "impact_score": 16.20668329150369,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0029082299503275606,
+        "capacity_margin": 13094.66697642437
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.728926136858224,
+        "holdown_thickness_in": 0.21388264882614613,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 22.964473611189334,
+        "impact_score": 22.698106099004942,
+        "pass_fail": 1.0,
+        "displacement_in": 0.010106509399896149,
+        "capacity_margin": 16411.480630540365
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 22.203568410213443,
+        "embedment_length_in": 14.948298413219947,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 15.734967390859355,
+        "holdown_thickness_in": 0.15737862175786663,
+        "holdown_bolt_diameter_in": 0.5856443617911963,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 18.06698946078522
+      },
+      "fitness": {
+        "safety_score": 18.68576674951102,
+        "impact_score": 56.54792058690068,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01006290038974685,
+        "capacity_margin": 13217.377965221669
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 14.915327015796803,
+        "holdown_thickness_in": 0.18424516602127025,
+        "holdown_bolt_diameter_in": 0.70911794093635,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 17.96517886671938,
+        "impact_score": 19.719534675209896,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01058651436113845,
+        "capacity_margin": 12680.243744539617
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 57.998106365419126,
+        "embedment_length_in": 8.530190126860466,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 16.46858008964931,
+        "impact_score": 5.234059108646295,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0025696055453021194,
+        "capacity_margin": 11551.069563125147
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 60.0,
+        "embedment_length_in": 7.62597038876862,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 15.010023614105751,
+        "impact_score": 4.6792368261423425,
+        "pass_fail": 1.0,
+        "displacement_in": 0.014976876616276523,
+        "capacity_margin": 10480.786944808577
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.537645457959027,
+        "holdown_thickness_in": 0.1937333749535003,
+        "holdown_bolt_diameter_in": 0.7216846491245057,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 19.985517043728493,
+        "impact_score": 20.863338613377437,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011254635436369408,
+        "capacity_margin": 14189.415611744564
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "H",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.12444821773637711,
+        "hanger_fastener_count": 15,
+        "blocking_length_in": 15.764741255387783
+      },
+      "fitness": {
+        "safety_score": 15.647967894661381,
+        "impact_score": 7.723097566068448,
+        "pass_fail": 1.0,
+        "displacement_in": 0.007314611125236641,
+        "capacity_margin": 10945.570097386233
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 22.89394672511304,
+        "embedment_length_in": 12.987995047572245,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 14.346177489951849,
+        "holdown_thickness_in": 0.11503059282472525,
+        "holdown_bolt_diameter_in": 0.6289057308381776,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 22.564062554791914
+      },
+      "fitness": {
+        "safety_score": 17.647866214667932,
+        "impact_score": 60.01674464328072,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02512026131281589,
+        "capacity_margin": 12465.069886962698
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.728926136858224,
+        "holdown_thickness_in": 0.21388264882614613,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 22.93912600776436,
+        "impact_score": 22.698106099004942,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022780311112382816,
+        "capacity_margin": 16411.480630540365
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.537645457959027,
+        "holdown_thickness_in": 0.1937333749535003,
+        "holdown_bolt_diameter_in": 0.7216846491245057,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 19.950236909832594,
+        "impact_score": 20.863338613377437,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02889470238431975,
+        "capacity_margin": 14189.415611744564
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.326745299769684,
+        "holdown_thickness_in": 0.1931203731679348,
+        "holdown_bolt_diameter_in": 0.7212905188645731,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 19.85030760564399,
+        "impact_score": 20.800289365258386,
+        "pass_fail": 1.0,
+        "displacement_in": 0.008209699265773515,
+        "capacity_margin": 14083.936241709023
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.75592577892958,
+        "holdown_thickness_in": 0.16318382596609055,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 20.44142199186576,
+        "impact_score": 22.703776023839925,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02656344871784781,
+        "capacity_margin": 14552.60276766798
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 16.512314190617378,
+        "holdown_thickness_in": 0.2012318798679481,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 20.717029821185694,
+        "impact_score": 22.022617590294367,
+        "pass_fail": 1.0,
+        "displacement_in": 0.012483403099731512,
+        "capacity_margin": 14737.32151435651
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.27158448194224,
+        "holdown_thickness_in": 0.23672431661988197,
+        "holdown_bolt_diameter_in": 0.7002285902695982,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 21.597884579547642,
+        "impact_score": 20.01108528902073,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02779191297992661,
+        "capacity_margin": 15417.731550837725
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 13.215518522710362,
+        "holdown_thickness_in": 0.19978703713375132,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 19.002387125039384,
+        "impact_score": 21.33029050003389,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01646628274307956,
+        "capacity_margin": 13463.294007698558
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 16.424620834545955,
+        "holdown_thickness_in": 0.1581951566268279,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 18.890587765462882,
+        "impact_score": 22.004201985519366,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01986168107614438,
+        "capacity_margin": 13384.905535520214
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.633285797408625,
+        "holdown_thickness_in": 0.21388264882614613,
+        "holdown_bolt_diameter_in": 0.7216846491245057,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 21.46686553590608,
+        "impact_score": 21.093423084661854,
+        "pass_fail": 1.0,
+        "displacement_in": 0.00538494389437979,
+        "capacity_margin": 15286.472933246503
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "H",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0975814634188816,
+        "hanger_fastener_count": 13,
+        "blocking_length_in": 11.870949108778838
+      },
+      "fitness": {
+        "safety_score": 10.810809855192856,
+        "impact_score": 6.096672950844427,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009526144634454097,
+        "capacity_margin": 7337.95277139213
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.52471556160387,
+        "holdown_thickness_in": 0.19745368239962408,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 21.522809473260722,
+        "impact_score": 22.445221878201526,
+        "pass_fail": 1.0,
+        "displacement_in": 0.028400901320836343,
+        "capacity_margin": 15362.597499016036
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 28.977040012043787,
+        "embedment_length_in": 13.299798642596528,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 16.15047032418078,
+        "holdown_thickness_in": 0.20335216733906902,
+        "holdown_bolt_diameter_in": 0.6851773809205398,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 22.538025364427174
+      },
+      "fitness": {
+        "safety_score": 22.99669966681994,
+        "impact_score": 67.31628889993421,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01332766585701442,
+        "capacity_margin": 16440.346412985615
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2152107054331633,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.178783646440024,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.008649561354117277,
+        "capacity_margin": 16569.2870028381
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.24410496840503026,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.620707042486448,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.010209585449777897,
+        "capacity_margin": 17648.0061537878
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.19691629427345428,
+        "holdown_bolt_diameter_in": 0.6992423287241016,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 20.635928109489353,
+        "impact_score": 20.32852280990898,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009652515529948334,
+        "capacity_margin": 14672.552918487454
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.24410496840503026,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.602943021873337,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.019091595756332718,
+        "capacity_margin": 17648.0061537878
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2152107054331633,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.15075683150016,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022662968824048755,
+        "capacity_margin": 16569.2870028381
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.728926136858224,
+        "holdown_thickness_in": 0.21388264882614613,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 22.93853915771145,
+        "impact_score": 22.698106099004942,
+        "pass_fail": 1.0,
+        "displacement_in": 0.023073736138838213,
+        "capacity_margin": 16411.480630540365
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.86446306842911,
+        "holdown_thickness_in": 0.2152107054331633,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.115257324939456,
+        "impact_score": 22.726568854634827,
+        "pass_fail": 1.0,
+        "displacement_in": 0.00394313787991186,
+        "capacity_margin": 16514.838205347613
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "E",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 6.919680085865776,
+        "uplift_plate_thickness_in": 0.5588105731515067,
+        "screw_diameter_in": 0.28861165594217303,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 10.523722720579373,
+        "impact_score": 17.772095707819055,
+        "pass_fail": 1.0,
+        "displacement_in": 0.013777275454118242,
+        "capacity_margin": 7129.990278056415
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.20632061544318597,
+        "holdown_bolt_diameter_in": 0.5800721578507465,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 17.744180517081933,
+        "impact_score": 15.299494833952599,
+        "pass_fail": 1.0,
+        "displacement_in": 0.005798904330430523,
+        "capacity_margin": 12508.121497053697
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26807102484504525,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.813288318822586,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01320733848578659,
+        "capacity_margin": 18542.73892754836
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.21162892998405475,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 22.981854655385632,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01754919868601083,
+        "capacity_margin": 16435.56738607138
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.364960278600137,
+        "holdown_thickness_in": 0.2399997577243672,
+        "holdown_bolt_diameter_in": 0.6508662201926775,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 20.927499652179808,
+        "impact_score": 18.04070271423044,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02882900269929884,
+        "capacity_margin": 14918.840250751651
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "A",
+        "embedment_depth_in": 46.83982222667615,
+        "rod_diameter_in": 0.9008142957856948,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 9.807904049202817,
+        "impact_score": 29.852153009956325,
+        "pass_fail": 1.0,
+        "displacement_in": 0.005223074706084889,
+        "capacity_margin": 6582.863149865293
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.11088361552458,
+        "holdown_thickness_in": 0.14908077632909722,
+        "holdown_bolt_diameter_in": 0.7079183157990032,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 17.816346746575405,
+        "impact_score": 20.33452702475625,
+        "pass_fail": 1.0,
+        "displacement_in": 0.006086632113012979,
+        "capacity_margin": 12562.422873983225
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.25037441996090337,
+        "holdown_bolt_diameter_in": 0.7317786733149294,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.301565910128573,
+        "impact_score": 21.864390974329684,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02815847221503076,
+        "capacity_margin": 17436.566119396604
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.21519582888412403,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.14087098103075,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.027233895304481455,
+        "capacity_margin": 16568.731611673964
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.319156969505556,
+        "holdown_thickness_in": 0.1783841008272723,
+        "holdown_bolt_diameter_in": 0.6369923425636929,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 17.137064893504476,
+        "impact_score": 17.231690710391263,
+        "pass_fail": 1.0,
+        "displacement_in": 0.001511716900914577,
+        "capacity_margin": 12048.511375980848
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.927016977708107,
+        "holdown_thickness_in": 0.19514510324525774,
+        "holdown_bolt_diameter_in": 0.7067932981036315,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 20.227254121678794,
+        "impact_score": 20.453414167599444,
+        "pass_fail": 1.0,
+        "displacement_in": 0.025239981455552774,
+        "capacity_margin": 14390.751383210023
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26807102484504525,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.838422313415006,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.000640341189577238,
+        "capacity_margin": 18542.73892754836
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.24410496840503026,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.60321555204794,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.018955330669031666,
+        "capacity_margin": 17648.0061537878
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.25037441996090337,
+        "holdown_bolt_diameter_in": 0.7317786733149294,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.328978424682994,
+        "impact_score": 21.864390974329684,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01445221493782103,
+        "capacity_margin": 17436.566119396604
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26551342124130456,
+        "holdown_bolt_diameter_in": 0.682832351570607,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.562215790477776,
+        "impact_score": 19.580390073286637,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011179937163571178,
+        "capacity_margin": 16859.295395474215
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2789152677538274,
+        "holdown_bolt_diameter_in": 0.7329969808031338,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.812459009454287,
+        "impact_score": 21.92325733653457,
+        "pass_fail": 1.0,
+        "displacement_in": 0.006118405782065592,
+        "capacity_margin": 18531.53613160697
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2443025180550028,
+        "holdown_bolt_diameter_in": 0.6661271598661997,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 21.973574530403525,
+        "impact_score": 18.8370465697055,
+        "pass_fail": 1.0,
+        "displacement_in": 0.026062319429877533,
+        "capacity_margin": 15695.600327058364
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2481642611456446,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.784446903308396,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02984517481582315,
+        "capacity_margin": 17799.553082770733
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.603705136092216,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.628130337559615,
+        "impact_score": 22.25180968884408,
+        "pass_fail": 1.0,
+        "displacement_in": 0.005377183363835073,
+        "capacity_margin": 18392.828876211643
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.18718281288663113,
+        "holdown_bolt_diameter_in": 0.7470680430503168,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 21.663124377008597,
+        "impact_score": 22.610241699374,
+        "pass_fail": 1.0,
+        "displacement_in": 0.017112321066787086,
+        "capacity_margin": 15450.488253393556
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.25037441996090337,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.91695404734769,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.018858205543987636,
+        "capacity_margin": 17882.06567854039
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26918780406942905,
+        "holdown_bolt_diameter_in": 0.749275084442553,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.860260931787042,
+        "impact_score": 22.719180061983668,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0056354520333896105,
+        "capacity_margin": 18566.499029337538
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.25037441996090337,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.90879046038758,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022939999024042295,
+        "capacity_margin": 17882.06567854039
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.87169661252819,
+        "holdown_thickness_in": 0.20525161428644584,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 21.58653478225613,
+        "impact_score": 22.308087898895636,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009567820904882028,
+        "capacity_margin": 15382.050548883497
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.218315337690097,
+        "holdown_thickness_in": 0.28698138627679515,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.187931081484233,
+        "impact_score": 22.590877831179636,
+        "pass_fail": 1.0,
+        "displacement_in": 0.018277783196977246,
+        "capacity_margin": 18829.978384694477
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "D",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 1.6233493235427996,
+        "strap_thickness_in": 0.11287813924579435,
+        "strap_leg_length_in": 9.783561349958447,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 5.986553586072015,
+        "impact_score": 4.71238898038469,
+        "pass_fail": 1.0,
+        "displacement_in": 0.019374198817910773,
+        "capacity_margin": 3751.367829629965
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.218315337690097,
+        "holdown_thickness_in": 0.28698138627679515,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.223540227922292,
+        "impact_score": 22.590877831179636,
+        "pass_fail": 1.0,
+        "displacement_in": 0.00047320997794714887,
+        "capacity_margin": 18829.978384694477
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26918780406942905,
+        "holdown_bolt_diameter_in": 0.749275084442553,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.865341739929793,
+        "impact_score": 22.719180061983668,
+        "pass_fail": 1.0,
+        "displacement_in": 0.003095047962014664,
+        "capacity_margin": 18566.499029337538
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26807102484504525,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.793782892900854,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022960051446652422,
+        "capacity_margin": 18542.73892754836
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26807102484504525,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.790051967078973,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.024825514357592046,
+        "capacity_margin": 18542.73892754836
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "E",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 7.434310798074214,
+        "uplift_plate_thickness_in": 0.48133481551762974,
+        "screw_diameter_in": 0.3078459007626175,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 9.97212505060877,
+        "impact_score": 20.409976186177726,
+        "pass_fail": 1.0,
+        "displacement_in": 0.026400230333295995,
+        "capacity_margin": 6737.070794465014
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.68213942063833,
+        "holdown_thickness_in": 0.28483697863279456,
+        "holdown_bolt_diameter_in": 0.7219806134946665,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.49688567525678,
+        "impact_score": 21.32777669741717,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02164090770945488,
+        "capacity_margin": 18319.136871119445
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.60915766884505,
+        "holdown_thickness_in": 0.26918780406942905,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.596937461219337,
+        "impact_score": 22.672954720722174,
+        "pass_fail": 1.0,
+        "displacement_in": 0.017766078006090168,
+        "capacity_margin": 18388.04003938486
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.067876721187403,
+        "holdown_thickness_in": 0.2708510533694447,
+        "holdown_bolt_diameter_in": 0.48023913922266065,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 16.65130691876161,
+        "impact_score": 11.1919698279372,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0030672355817615666,
+        "capacity_margin": 11688.217367813555
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.266278941429494,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.70066562807424,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02470635565330103,
+        "capacity_margin": 18475.834480034442
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.60915766884505,
+        "holdown_thickness_in": 0.28698138627679515,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.475050216595694,
+        "impact_score": 22.672954720722174,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01495586247365134,
+        "capacity_margin": 19039.352069514083
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "H",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.07818933209399154,
+        "hanger_fastener_count": 12,
+        "blocking_length_in": 13.573262386537442
+      },
+      "fitness": {
+        "safety_score": 8.721394639053456,
+        "impact_score": 6.49864735713642,
+        "pass_fail": 1.0,
+        "displacement_in": 0.029627215571892847,
+        "capacity_margin": 5808.22340830596
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "H",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0890309233784826,
+        "hanger_fastener_count": 15,
+        "blocking_length_in": 20.875112682536326
+      },
+      "fitness": {
+        "safety_score": 12.690627699166999,
+        "impact_score": 9.424851251308912,
+        "pass_fail": 1.0,
+        "displacement_in": 0.028597556478866595,
+        "capacity_margin": 8769.702737959866
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2812005182676311,
+        "holdown_bolt_diameter_in": 0.7454412576921914,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.33483667932649,
+        "impact_score": 22.530150191009486,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0054028911550556185,
+        "capacity_margin": 18920.420715041877
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.26965504659870493,
+        "holdown_bolt_diameter_in": 0.683953562740783,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.774637714596167,
+        "impact_score": 19.63094076259681,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02546941849364979,
+        "capacity_margin": 17039.201593450853
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "D",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 1.7691215187274982,
+        "strap_thickness_in": 0.19686875691174538,
+        "strap_leg_length_in": 9.454693493482086,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 8.736198268468266,
+        "impact_score": 4.71238898038469,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011078666151026107,
+        "capacity_margin": 5791.58142255264
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.60915766884505,
+        "holdown_thickness_in": 0.28698138627679515,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.44620996066379,
+        "impact_score": 22.672954720722174,
+        "pass_fail": 1.0,
+        "displacement_in": 0.029375990439603428,
+        "capacity_margin": 19039.352069514083
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2812005182676311,
+        "holdown_bolt_diameter_in": 0.7454412576921914,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.308900511600363,
+        "impact_score": 22.530150191009486,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01837097501811851,
+        "capacity_margin": 18920.420715041877
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.218315337690097,
+        "holdown_thickness_in": 0.28698138627679515,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.200689425553566,
+        "impact_score": 22.590877831179636,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011898611162309823,
+        "capacity_margin": 18829.978384694477
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.804578834422525,
+        "holdown_thickness_in": 0.2812005182676311,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.345958675918578,
+        "impact_score": 22.71399316549345,
+        "pass_fail": 1.0,
+        "displacement_in": 0.006478167717435968,
+        "capacity_margin": 18930.328620315307
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.878690280321557,
+        "holdown_thickness_in": 0.29349169553722654,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.520178575135148,
+        "impact_score": 22.30955656913224,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01701286622749406,
+        "capacity_margin": 18329.61529879881
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 36.977304869007085,
+        "embedment_length_in": 11.519520656954873,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 15.766080500375066,
+        "impact_score": 7.068289349368222,
+        "pass_fail": 1.0,
+        "displacement_in": 0.006659808578465705,
+        "capacity_margin": 11032.763070137167
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.68073029054319,
+        "holdown_thickness_in": 0.267521487437541,
+        "holdown_bolt_diameter_in": 0.7034843773665995,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.065464923547886,
+        "impact_score": 20.457761518520712,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01939071905354957,
+        "capacity_margin": 17247.22749199
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.804578834422525,
+        "holdown_thickness_in": 0.2812005182676311,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.32627479420442,
+        "impact_score": 22.71399316549345,
+        "pass_fail": 1.0,
+        "displacement_in": 0.016320108574515782,
+        "capacity_margin": 18930.328620315307
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.804578834422525,
+        "holdown_thickness_in": 0.2812005182676311,
+        "holdown_bolt_diameter_in": 0.7454412576921914,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.173550378800496,
+        "impact_score": 22.489111746238216,
+        "pass_fail": 1.0,
+        "displacement_in": 0.017339670803705635,
+        "capacity_margin": 18817.842653365624
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.27917189830679473,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.375896169861402,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009488697575167827,
+        "capacity_margin": 18957.171536787006
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7454479913045705,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.272338956319892,
+        "impact_score": 22.53048134703937,
+        "pass_fail": 1.0,
+        "displacement_in": 0.006857194260477741,
+        "capacity_margin": 19622.433677710316
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.675280828063023,
+        "holdown_thickness_in": 0.2980488108595954,
+        "holdown_bolt_diameter_in": 0.7326861297068374,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.99347778550886,
+        "impact_score": 21.420037255956807,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022723987248261107,
+        "capacity_margin": 17944.96192414098
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 16.048795280384006,
+        "holdown_thickness_in": 0.24896968152004373,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 22.40920736659557,
+        "impact_score": 21.925278619145356,
+        "pass_fail": 1.0,
+        "displacement_in": 0.007661200133266363,
+        "capacity_margin": 15993.325772843495
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "C",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 39.87728279620786,
+        "embedment_length_in": 7.113073139748048,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 10.363742453148944,
+        "impact_score": 4.364527015679561,
+        "pass_fail": 1.0,
+        "displacement_in": 0.010972475641528326,
+        "capacity_margin": 7006.378104658872
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.07084541650846,
+        "holdown_thickness_in": 0.2971158162895466,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.56138409981627,
+        "impact_score": 22.559909147731492,
+        "pass_fail": 1.0,
+        "displacement_in": 0.020283194934199437,
+        "capacity_margin": 19111.75363274765
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7454479913045705,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.26230601991047,
+        "impact_score": 22.53048134703937,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011873662465189323,
+        "capacity_margin": 19622.433677710316
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.07084541650846,
+        "holdown_thickness_in": 0.2971158162895466,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.559822044290478,
+        "impact_score": 22.559909147731492,
+        "pass_fail": 1.0,
+        "displacement_in": 0.021064222697095195,
+        "capacity_margin": 19111.75363274765
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.60915766884505,
+        "holdown_thickness_in": 0.28698138627679515,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.44549190578492,
+        "impact_score": 22.672954720722174,
+        "pass_fail": 1.0,
+        "displacement_in": 0.029735017879038476,
+        "capacity_margin": 19039.352069514083
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "H",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.06065726660055779,
+        "hanger_fastener_count": 16,
+        "blocking_length_in": 21.034077028603626
+      },
+      "fitness": {
+        "safety_score": 10.168286534263807,
+        "impact_score": 9.642682293750944,
+        "pass_fail": 1.0,
+        "displacement_in": 0.019232797762810477,
+        "capacity_margin": 6872.803637879289
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "A",
+        "embedment_depth_in": 40.70582209715901,
+        "rod_diameter_in": 0.9016690400245664,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 8.942977712661321,
+        "impact_score": 25.99206158251618,
+        "pass_fail": 1.0,
+        "displacement_in": 0.019370498246111156,
+        "capacity_margin": 5958.321089508284
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.264221203883572,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.38007083802379,
+        "impact_score": 22.180518063080264,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0020713532781086747,
+        "capacity_margin": 18202.7178741748
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.29321153747835343,
+        "holdown_bolt_diameter_in": 0.7456487248046931,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.930007851338406,
+        "impact_score": 22.540354704092653,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011580281818713045,
+        "capacity_margin": 19373.9364091058
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 15.213290315893538,
+        "holdown_thickness_in": 0.2999376646465263,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.82914388262249,
+        "impact_score": 21.74982257660236,
+        "pass_fail": 1.0,
+        "displacement_in": 0.007074235416836777,
+        "capacity_margin": 17052.426368685614
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.28943090850639497,
+        "holdown_bolt_diameter_in": 0.7276441852258175,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.138307757199417,
+        "impact_score": 21.66535019608515,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01973780941490713,
+        "capacity_margin": 18795.11457907232
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.3933624263876,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.021577156576432128,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.417276313697556,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009620212921454136,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.76895360648496,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7119717057591594,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.990648239710264,
+        "impact_score": 20.87257245065832,
+        "pass_fail": 1.0,
+        "displacement_in": 0.021842235596263804,
+        "capacity_margin": 18688.029231358094
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.964253117452532,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.408938876353872,
+        "impact_score": 22.747524764929747,
+        "pass_fail": 1.0,
+        "displacement_in": 0.00038078591898254227,
+        "capacity_margin": 19714.735745773418
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.217936543786667,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7473885626641829,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.25631106646021,
+        "impact_score": 22.041809101373897,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0033749196731116715,
+        "capacity_margin": 18112.27791394088
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2837311654198647,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.568009372994513,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.027439832746616395,
+        "capacity_margin": 19127.38417567495
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.394071771450385,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.021222484045040308,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.964253117452532,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.373830219465447,
+        "impact_score": 22.747524764929747,
+        "pass_fail": 1.0,
+        "displacement_in": 0.017935114363195774,
+        "capacity_margin": 19714.735745773418
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.392825879337337,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.021845430101563573,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 24.089948958033304,
+        "embedment_length_in": 10.974473964282577,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 14.210137926950733,
+        "holdown_thickness_in": 0.11558695316822494,
+        "holdown_bolt_diameter_in": 0.38679997006975436,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 17.947502781275944
+      },
+      "fitness": {
+        "safety_score": 13.519924023985212,
+        "impact_score": 36.22407320690395,
+        "pass_fail": 1.0,
+        "displacement_in": 0.004178909505023481,
+        "capacity_margin": 9352.31228266859
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.992628908499277,
+        "holdown_thickness_in": 0.25734034516837934,
+        "holdown_bolt_diameter_in": 0.7326492621929663,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.081254144173904,
+        "impact_score": 21.694898302117572,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0024715739251149624,
+        "capacity_margin": 17233.753933706852
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.87275798007258,
+        "holdown_thickness_in": 0.23779512848793988,
+        "holdown_bolt_diameter_in": 0.7407487240103013,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.936617062169468,
+        "impact_score": 22.273380075489186,
+        "pass_fail": 1.0,
+        "displacement_in": 0.004225253167992802,
+        "capacity_margin": 17128.40115961905
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "F",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 24.609062356729396,
+        "embedment_length_in": 9.300356634257739,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 8.148343745745375,
+        "holdown_thickness_in": 0.2103095712400925,
+        "holdown_bolt_diameter_in": 0.6152500095026612,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 22.917534148399753
+      },
+      "fitness": {
+        "safety_score": 15.594649290909992,
+        "impact_score": 47.21328080130319,
+        "pass_fail": 1.0,
+        "displacement_in": 0.028815027474480576,
+        "capacity_margin": 10937.867922566325
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.6798779046530851,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.175759435392248,
+        "impact_score": 19.44758370894602,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022275210384700785,
+        "capacity_margin": 18080.364426385247
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.41414716520871,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011184787165876783,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7349477699629149,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.895797450618367,
+        "impact_score": 22.01771978878035,
+        "pass_fail": 1.0,
+        "displacement_in": 0.023336020397500736,
+        "capacity_margin": 19365.949705462117
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.982126558726264,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.409431922394848,
+        "impact_score": 22.751278187597233,
+        "pass_fail": 1.0,
+        "displacement_in": 0.006838335735651746,
+        "capacity_margin": 19724.74487288671
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.790025128404437,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.6706802532225542,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.75501062538517,
+        "impact_score": 18.99372912931922,
+        "pass_fail": 1.0,
+        "displacement_in": 0.016608055591055042,
+        "capacity_margin": 17757.816105940532
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7088918951256618,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.055715456194047,
+        "impact_score": 20.776742596644638,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02760898778964083,
+        "capacity_margin": 18745.211363085065
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2641945701350138,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.602430774570763,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.021702586626854183,
+        "capacity_margin": 18398.01795170718
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.864077406812385,
+        "holdown_thickness_in": 0.28796287962544254,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.691631165707193,
+        "impact_score": 22.726487865695315,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022508966003767727,
+        "capacity_margin": 19212.305604847657
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.395961107491672,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.020277816024397436,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.982126558726264,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.418596504182805,
+        "impact_score": 22.751278187597233,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0022560448416721534,
+        "capacity_margin": 19724.74487288671
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.381063070711267,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.027726834414599548,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.396149132360947,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.020183803589760067,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 16.170857004708964,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7412519301312628,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.250146928829544,
+        "impact_score": 21.52058077862806,
+        "pass_fail": 1.0,
+        "displacement_in": 0.012753072748077592,
+        "capacity_margin": 17375.18191737184
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.86955667834004,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.6752791114944613,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.94045598293171,
+        "impact_score": 19.214614490784008,
+        "pass_fail": 1.0,
+        "displacement_in": 0.022124769843501545,
+        "capacity_margin": 17904.48673381278
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.29528711733861196,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.14254755246416,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.029135590088378426,
+        "capacity_margin": 19558.806380641516
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.991063279363132,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.371321662237026,
+        "impact_score": 22.753154898930973,
+        "pass_fail": 1.0,
+        "displacement_in": 0.029245502233141242,
+        "capacity_margin": 19729.749436443355
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.792159866661915,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.7285041536283945,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.806094200974943,
+        "impact_score": 21.45301111341003,
+        "pass_fail": 1.0,
+        "displacement_in": 0.010927995104973484,
+        "capacity_margin": 18533.965505918757
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2742845503124121,
+        "holdown_bolt_diameter_in": 0.7451036780770419,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.983193820527237,
+        "impact_score": 22.513552011436648,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0027246586943304382,
+        "capacity_margin": 18653.92214788167
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.67257376869254,
+        "holdown_thickness_in": 0.277853852102185,
+        "holdown_bolt_diameter_in": 0.7384351706299507,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.9916607016672,
+        "impact_score": 21.90845518804533,
+        "pass_fail": 1.0,
+        "displacement_in": 0.017266949128671983,
+        "capacity_margin": 17935.458164065276
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2866691470483063,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.712690195330527,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02856575459433995,
+        "capacity_margin": 19237.06882313677
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2913033746273237,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.97857227933896,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011506889420262695,
+        "capacity_margin": 19410.079986086756
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.27424691315407645,
+        "holdown_bolt_diameter_in": 0.730058836193084,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.472736390564474,
+        "impact_score": 21.781458314984583,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011736848434176566,
+        "capacity_margin": 18286.322845428258
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "D",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 1.2845330895957092,
+        "strap_thickness_in": 0.129927740080198,
+        "strap_leg_length_in": 10.86466375843845,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 5.995183870043764,
+        "impact_score": 4.71238898038469,
+        "pass_fail": 1.0,
+        "displacement_in": 0.03424011005327088,
+        "capacity_margin": 3780.0049886408433
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.982126558726264,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.381977056942084,
+        "impact_score": 22.751278187597233,
+        "pass_fail": 1.0,
+        "displacement_in": 0.020565768462033212,
+        "capacity_margin": 19724.74487288671
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.425342031457326,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.005587354041569444,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.402915406995202,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.016800666272631555,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.428486483447386,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.004015128046539604,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.365813319456628,
+        "holdown_thickness_in": 0.2845555662028408,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.185718981038427,
+        "impact_score": 22.62185240735061,
+        "pass_fail": 1.0,
+        "displacement_in": 0.013571500613665634,
+        "capacity_margin": 18821.30061831346
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.961221869599044,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.40103460393683,
+        "impact_score": 22.746888202880516,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0031959443018025648,
+        "capacity_margin": 19713.038246975466
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.903189914140384,
+        "holdown_thickness_in": 0.2991461513177766,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.568984004054457,
+        "impact_score": 22.524701492234193,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0021883593962315957,
+        "capacity_margin": 19090.41148616234
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 18.043054022573617,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.6482036792803356,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 22.816902553151177,
+        "impact_score": 17.64900704085645,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0027836227932869356,
+        "capacity_margin": 16290.386414878536
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2939833311006021,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.105456677973653,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.015078919473017035,
+        "capacity_margin": 19510.13169442248
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.8869754740602,
+        "holdown_thickness_in": 0.2871582798602559,
+        "holdown_bolt_diameter_in": 0.7268218023071498,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.517307027070647,
+        "impact_score": 21.182158703323573,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0015512877149979798,
+        "capacity_margin": 17557.89168662832
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.383923781663885,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.026296478938289465,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "B",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 8.95036161324798,
+        "bolt_diameter_in": 0.8157682479629637,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 7.598586546894018,
+        "impact_score": 540.0047273095332,
+        "pass_fail": 1.0,
+        "displacement_in": 0.017254398685007083,
+        "capacity_margin": 4951.579142111724
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.204548566609233,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.808672878678248,
+        "impact_score": 22.587986809252655,
+        "pass_fail": 1.0,
+        "displacement_in": 0.015559445770222067,
+        "capacity_margin": 19289.301197301174
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.28836622505432974,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.825431257721938,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.014631873354924302,
+        "capacity_margin": 19300.42640202831
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.38368710958457,
+        "holdown_thickness_in": 0.2808379650979963,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 24.58780758563793,
+        "impact_score": 22.205605903277476,
+        "pass_fail": 1.0,
+        "displacement_in": 0.026534217349787725,
+        "capacity_margin": 17647.819385677867
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.417714276516772,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.009401231511846908,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.38147396313669,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.027521388201888812,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.389792231802634,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0233622538689163,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.92257697803162,
+        "holdown_thickness_in": 0.2922420894430741,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.525593615032715,
+        "impact_score": 22.318772775651357,
+        "pass_fail": 1.0,
+        "displacement_in": 0.0024079017475599567,
+        "capacity_margin": 18311.852509293356
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.398529944532577,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01899339750394367,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.506078129843996,
+        "holdown_thickness_in": 0.293786393380265,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.752957144233037,
+        "impact_score": 22.651308017531953,
+        "pass_fail": 1.0,
+        "displacement_in": 0.004978242891862495,
+        "capacity_margin": 19231.911973152994
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 17.968115342705072,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.85531571385421,
+        "impact_score": 22.32833583223278,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02846956499802111,
+        "capacity_margin": 18596.89859191484
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2845230553811854,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.652409667278864,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.005041460757492845,
+        "capacity_margin": 19156.948067564255
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.421009747241655,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.007753496149404724,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.123253158169483,
+        "holdown_thickness_in": 0.28720846053978694,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 26.138583864934592,
+        "impact_score": 22.570914773480304,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01427148926004999,
+        "capacity_margin": 18787.159520131558
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "B",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 5.684826427986202,
+        "bolt_diameter_in": 0.9426240562958315,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 8.05767287095725,
+        "impact_score": 534.4006803848008,
+        "pass_fail": 1.0,
+        "displacement_in": 0.01781296842715905,
+        "capacity_margin": 5295.119186836106
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "E",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 6.018543896758571,
+        "uplift_plate_thickness_in": 0.3618853479788233,
+        "screw_diameter_in": 0.43523644701071873,
+        "holdown_height_in": 0.0,
+        "holdown_thickness_in": 0.0,
+        "holdown_bolt_diameter_in": 0.0,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 8.032563696763507,
+        "impact_score": 22.976232130851344,
+        "pass_fail": 1.0,
+        "displacement_in": 0.00529331558389008,
+        "capacity_margin": 5257.683547199394
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.3,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 27.41321964362214,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.011648547959164224,
+        "capacity_margin": 19734.754
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 19.434349815331363,
+        "holdown_thickness_in": 0.2901760607603099,
+        "holdown_bolt_diameter_in": 0.6640399697780264,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 23.79146867435622,
+        "impact_score": 18.626678607992005,
+        "pass_fail": 1.0,
+        "displacement_in": 0.02831364619413303,
+        "capacity_margin": 17056.012246790895
+      }
+    },
+    {
+      "candidate": {
+        "strategy": "G",
+        "embedment_depth_in": 0.0,
+        "rod_diameter_in": 0.0,
+        "plate_size_in": 0.0,
+        "bolt_diameter_in": 0.0,
+        "angle_deg": 0.0,
+        "embedment_length_in": 0.0,
+        "strap_width_in": 0.0,
+        "strap_thickness_in": 0.0,
+        "strap_leg_length_in": 0.0,
+        "uplift_plate_width_in": 0.0,
+        "uplift_plate_thickness_in": 0.0,
+        "screw_diameter_in": 0.0,
+        "holdown_height_in": 20.0,
+        "holdown_thickness_in": 0.2621101670317668,
+        "holdown_bolt_diameter_in": 0.75,
+        "hanger_gauge_in": 0.0,
+        "hanger_fastener_count": 0.0,
+        "blocking_length_in": 0.0
+      },
+      "fitness": {
+        "safety_score": 25.525202875791685,
+        "impact_score": 22.755031610264716,
+        "pass_fail": 1.0,
+        "displacement_in": 0.008194544837238407,
+        "capacity_margin": 18320.20023585263
+      }
+    }
+  ]
+}
